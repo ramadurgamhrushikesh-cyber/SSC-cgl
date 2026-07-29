@@ -1,0 +1,114 @@
+{
+  "exam": "SSC CGL Tier-I",
+  "tier1_pattern": {
+    "sections": 4,
+    "questions_per_section": 25,
+    "marks_per_question": 2,
+    "negative_marking": 0.5,
+    "total_marks": 200,
+    "duration_minutes": 60,
+    "sectional_timing_minutes": 15
+  },
+  "sections": [
+    {
+      "id": "quant",
+      "name": "Quantitative Aptitude",
+      "icon": "🔢",
+      "tier1_weight": "25 questions / 50 marks",
+      "description": "Number system, arithmetic, algebra, geometry, trigonometry & data interpretation.",
+      "contentStatus": "active",
+      "topics": [
+        { "id": "number-system", "name": "Number System", "difficulty": "easy", "tier1_weight": "high", "timeline_days": 3, "est_hours": 5, "populated": false },
+        { "id": "hcf-lcm", "name": "H.C.F. and L.C.M.", "difficulty": "easy", "tier1_weight": "medium", "timeline_days": 2, "est_hours": 3, "populated": false },
+        { "id": "simplification", "name": "Simplification", "difficulty": "easy", "tier1_weight": "high", "timeline_days": 2, "est_hours": 4, "populated": false },
+        { "id": "surds-indices", "name": "Surds and Indices", "difficulty": "medium", "tier1_weight": "medium", "timeline_days": 2, "est_hours": 3, "populated": false },
+        { "id": "average", "name": "Average", "difficulty": "easy", "tier1_weight": "high", "timeline_days": 2, "est_hours": 3, "populated": true },
+        { "id": "percentage", "name": "Percentage", "difficulty": "easy", "tier1_weight": "high", "timeline_days": 2, "est_hours": 4, "populated": true },
+        { "id": "ratio-proportion", "name": "Ratio and Proportion", "difficulty": "medium", "tier1_weight": "high", "timeline_days": 2, "est_hours": 4, "populated": false },
+        { "id": "profit-loss", "name": "Profit and Loss", "difficulty": "medium", "tier1_weight": "high", "timeline_days": 3, "est_hours": 5, "populated": false },
+        { "id": "partnership", "name": "Partnership", "difficulty": "medium", "tier1_weight": "medium", "timeline_days": 1, "est_hours": 2, "populated": false },
+        { "id": "time-work", "name": "Time and Work", "difficulty": "medium", "tier1_weight": "high", "timeline_days": 3, "est_hours": 5, "populated": false },
+        { "id": "pipes-cisterns", "name": "Pipes and Cisterns", "difficulty": "medium", "tier1_weight": "medium", "timeline_days": 2, "est_hours": 3, "populated": false },
+        { "id": "time-distance", "name": "Time and Distance", "difficulty": "medium", "tier1_weight": "high", "timeline_days": 3, "est_hours": 5, "populated": false },
+        { "id": "trains", "name": "Problems on Trains", "difficulty": "medium", "tier1_weight": "medium", "timeline_days": 2, "est_hours": 3, "populated": false },
+        { "id": "boats-streams", "name": "Boats and Streams", "difficulty": "medium", "tier1_weight": "medium", "timeline_days": 1, "est_hours": 2, "populated": false },
+        { "id": "alligation-mixture", "name": "Alligation and Mixture", "difficulty": "medium", "tier1_weight": "medium", "timeline_days": 2, "est_hours": 3, "populated": false },
+        { "id": "simple-interest", "name": "Simple Interest", "difficulty": "easy", "tier1_weight": "medium", "timeline_days": 2, "est_hours": 3, "populated": false },
+        { "id": "compound-interest", "name": "Compound Interest", "difficulty": "medium", "tier1_weight": "medium", "timeline_days": 2, "est_hours": 4, "populated": false },
+        { "id": "mensuration-2d", "name": "Mensuration (2D Areas)", "difficulty": "medium", "tier1_weight": "high", "timeline_days": 3, "est_hours": 6, "populated": false },
+        { "id": "mensuration-3d", "name": "Mensuration (3D Volume & Surface)", "difficulty": "hard", "tier1_weight": "high", "timeline_days": 3, "est_hours": 6, "populated": false },
+        { "id": "algebra", "name": "Algebra", "difficulty": "medium", "tier1_weight": "high", "timeline_days": 3, "est_hours": 6, "populated": false },
+        { "id": "geometry", "name": "Geometry", "difficulty": "hard", "tier1_weight": "high", "timeline_days": 4, "est_hours": 7, "populated": false },
+        { "id": "trigonometry", "name": "Trigonometry", "difficulty": "hard", "tier1_weight": "high", "timeline_days": 3, "est_hours": 6, "populated": false },
+        { "id": "heights-distances", "name": "Heights and Distances", "difficulty": "medium", "tier1_weight": "medium", "timeline_days": 1, "est_hours": 2, "populated": false },
+        { "id": "data-interpretation", "name": "Data Interpretation", "difficulty": "medium", "tier1_weight": "high", "timeline_days": 3, "est_hours": 6, "populated": false }
+      ]
+    },
+    {
+      "id": "reasoning",
+      "name": "General Intelligence & Reasoning",
+      "icon": "🧩",
+      "tier1_weight": "25 questions / 50 marks",
+      "description": "Verbal reasoning (analogy, series, coding, blood relations…) and Non-Verbal reasoning (mirror/water images, pattern, cubes…).",
+      "contentStatus": "active",
+      "topics": [
+        { "id": "analogy", "name": "Analogy (Verbal)", "difficulty": "easy", "tier1_weight": "high", "timeline_days": 2, "est_hours": 3, "populated": true },
+        { "id": "classification", "name": "Classification (Verbal)", "difficulty": "easy", "tier1_weight": "high", "timeline_days": 2, "est_hours": 3, "populated": false },
+        { "id": "series-completion", "name": "Series Completion", "difficulty": "medium", "tier1_weight": "high", "timeline_days": 3, "est_hours": 5, "populated": false },
+        { "id": "coding-decoding", "name": "Coding-Decoding", "difficulty": "medium", "tier1_weight": "high", "timeline_days": 3, "est_hours": 5, "populated": true },
+        { "id": "blood-relations", "name": "Blood Relations", "difficulty": "medium", "tier1_weight": "high", "timeline_days": 2, "est_hours": 4, "populated": false },
+        { "id": "direction-sense", "name": "Direction Sense Test", "difficulty": "medium", "tier1_weight": "medium", "timeline_days": 2, "est_hours": 3, "populated": false },
+        { "id": "ranking", "name": "Number, Ranking & Time Sequence", "difficulty": "medium", "tier1_weight": "medium", "timeline_days": 2, "est_hours": 3, "populated": false },
+        { "id": "venn-diagrams", "name": "Logical Venn Diagrams", "difficulty": "medium", "tier1_weight": "medium", "timeline_days": 2, "est_hours": 3, "populated": false },
+        { "id": "puzzle-test", "name": "Puzzle Test", "difficulty": "hard", "tier1_weight": "medium", "timeline_days": 3, "est_hours": 5, "populated": false },
+        { "id": "mathematical-operations", "name": "Mathematical Operations", "difficulty": "medium", "tier1_weight": "medium", "timeline_days": 2, "est_hours": 3, "populated": false },
+        { "id": "arithmetical-reasoning", "name": "Arithmetical Reasoning", "difficulty": "medium", "tier1_weight": "medium", "timeline_days": 2, "est_hours": 3, "populated": false },
+        { "id": "data-sufficiency", "name": "Data Sufficiency", "difficulty": "medium", "tier1_weight": "low", "timeline_days": 1, "est_hours": 2, "populated": false },
+        { "id": "syllogism", "name": "Syllogism", "difficulty": "medium", "tier1_weight": "medium", "timeline_days": 2, "est_hours": 3, "populated": false },
+        { "id": "inserting-missing-character", "name": "Inserting the Missing Character", "difficulty": "medium", "tier1_weight": "medium", "timeline_days": 2, "est_hours": 3, "populated": false },
+        { "id": "mirror-images", "name": "Mirror & Water Images (Non-Verbal)", "difficulty": "easy", "tier1_weight": "high", "timeline_days": 2, "est_hours": 3, "populated": true },
+        { "id": "nv-series", "name": "Series / Pattern (Non-Verbal)", "difficulty": "medium", "tier1_weight": "high", "timeline_days": 3, "est_hours": 4, "populated": true },
+        { "id": "nv-classification", "name": "Classification (Non-Verbal)", "difficulty": "medium", "tier1_weight": "medium", "timeline_days": 2, "est_hours": 3, "populated": false },
+        { "id": "cubes-dice", "name": "Cubes and Dice", "difficulty": "hard", "tier1_weight": "medium", "timeline_days": 2, "est_hours": 4, "populated": false },
+        { "id": "paper-folding", "name": "Paper Folding & Cutting", "difficulty": "medium", "tier1_weight": "medium", "timeline_days": 2, "est_hours": 3, "populated": false },
+        { "id": "embedded-figures", "name": "Embedded Figures", "difficulty": "medium", "tier1_weight": "medium", "timeline_days": 2, "est_hours": 3, "populated": false }
+      ]
+    },
+    {
+      "id": "ga",
+      "name": "General Awareness",
+      "icon": "🌍",
+      "tier1_weight": "25 questions / 50 marks",
+      "description": "Current affairs, History, Geography, Polity, Economy & General Science.",
+      "contentStatus": "soon",
+      "topics": [
+        { "id": "current-affairs", "name": "Current Affairs", "difficulty": "medium", "tier1_weight": "high", "timeline_days": 0, "est_hours": 0, "populated": false },
+        { "id": "history", "name": "Indian History", "difficulty": "hard", "tier1_weight": "high", "timeline_days": 0, "est_hours": 0, "populated": false },
+        { "id": "geography", "name": "Geography", "difficulty": "medium", "tier1_weight": "medium", "timeline_days": 0, "est_hours": 0, "populated": false },
+        { "id": "polity", "name": "Indian Polity", "difficulty": "hard", "tier1_weight": "high", "timeline_days": 0, "est_hours": 0, "populated": false },
+        { "id": "economy", "name": "Indian Economy", "difficulty": "hard", "tier1_weight": "medium", "timeline_days": 0, "est_hours": 0, "populated": false },
+        { "id": "general-science", "name": "General Science", "difficulty": "medium", "tier1_weight": "high", "timeline_days": 0, "est_hours": 0, "populated": false },
+        { "id": "static-gk", "name": "Static GK", "difficulty": "medium", "tier1_weight": "medium", "timeline_days": 0, "est_hours": 0, "populated": false }
+      ]
+    },
+    {
+      "id": "english",
+      "name": "English Comprehension",
+      "icon": "📖",
+      "tier1_weight": "25 questions / 50 marks",
+      "description": "Reading comprehension, grammar, vocabulary, and sentence skills.",
+      "contentStatus": "soon",
+      "topics": [
+        { "id": "reading-comprehension", "name": "Reading Comprehension", "difficulty": "medium", "tier1_weight": "high", "timeline_days": 0, "est_hours": 0, "populated": false },
+        { "id": "cloze-test", "name": "Cloze Test", "difficulty": "medium", "tier1_weight": "high", "timeline_days": 0, "est_hours": 0, "populated": false },
+        { "id": "spotting-errors", "name": "Spotting Errors", "difficulty": "hard", "tier1_weight": "high", "timeline_days": 0, "est_hours": 0, "populated": false },
+        { "id": "synonyms-antonyms", "name": "Synonyms & Antonyms", "difficulty": "medium", "tier1_weight": "medium", "timeline_days": 0, "est_hours": 0, "populated": false },
+        { "id": "idioms-phrases", "name": "Idioms & Phrases", "difficulty": "medium", "tier1_weight": "medium", "timeline_days": 0, "est_hours": 0, "populated": false },
+        { "id": "one-word-substitution", "name": "One-Word Substitution", "difficulty": "medium", "tier1_weight": "medium", "timeline_days": 0, "est_hours": 0, "populated": false },
+        { "id": "sentence-improvement", "name": "Sentence Improvement", "difficulty": "medium", "tier1_weight": "medium", "timeline_days": 0, "est_hours": 0, "populated": false },
+        { "id": "active-passive", "name": "Active/Passive Voice", "difficulty": "medium", "tier1_weight": "medium", "timeline_days": 0, "est_hours": 0, "populated": false },
+        { "id": "direct-indirect", "name": "Direct/Indirect Speech", "difficulty": "medium", "tier1_weight": "medium", "timeline_days": 0, "est_hours": 0, "populated": false }
+      ]
+    }
+  ]
+}

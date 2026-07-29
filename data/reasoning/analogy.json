@@ -1,0 +1,484 @@
+{
+  "id": "analogy",
+  "section": "reasoning",
+  "name": "Analogy (Verbal)",
+  "difficulty": "easy",
+  "tier1_weight": "high",
+  "timeline_days": 2,
+  "est_hours": 3,
+  "pages": [
+    {
+      "title": "What is Analogy?",
+      "body": "<p><strong>Analogy</strong> means a similarity or comparison between two pairs of things. In SSC CGL you are given a pair with a relationship, and you must find another pair (or a missing term) with the <em>same</em> relationship.</p><div class='callout'><strong>Core idea</strong>If <strong>A : B</strong> has relationship R, find <strong>C : D</strong> where the same R holds.</div><div class='figure fig-svg'><svg viewBox='0 0 360 120' width='360' height='120'><text x='80' y='40' text-anchor='middle' class='label'>Doctor</text><text x='280' y='40' text-anchor='middle' class='label'>Patient</text><text x='180' y='40' text-anchor='middle' fill='var(--accent)' class='label'>::</text><text x='80' y='90' text-anchor='middle' class='label'>Teacher</text><text x='280' y='90' text-anchor='middle' fill='var(--accent)' class='label'>Student</text><text x='180' y='90' text-anchor='middle' fill='var(--accent)' class='label'>::</text><line x1='130' y1='32' x2='230' y2='32' stroke='var(--accent)' stroke-width='2' marker-end='url(#a)'/><line x1='130' y1='82' x2='230' y2='82' stroke='var(--accent)' stroke-width='2' marker-end='url(#a)'/><text x='180' y='65' text-anchor='middle' class='label-sm'>treats / teaches</text></svg><div class='fig-caption'>Doctor : Patient :: Teacher : Student — same relationship.</div></div>"
+    },
+    {
+      "title": "Common Relationship Types",
+      "body": "<p>Recognising the <em>type</em> of relationship is the key skill. Here are the most common ones in SSC CGL:</p><table class='data-table'><tr><th>Relationship</th><th>Example</th></tr><tr><td>Worker : Tool / Product</td><td>Carpenter : Wood :: Blacksmith : Iron</td></tr><tr><td>Animal : Young one</td><td>Cow : Calf :: Dog : Puppy</td></tr><tr><td>Animal : Dwelling</td><td>Lion : Den :: Bird : Nest</td></tr><tr><td>Whole : Part</td><td>Wheel : Car :: Page : Book</td></tr><tr><td>Symbol : Quantity</td><td>Ohm : Resistance :: Ampere : Current</td></tr><tr><td>Country : Capital</td><td>India : Delhi :: Japan : Tokyo</td></tr><tr><td>Word : Synonym</td><td>Big : Large :: Small : Tiny</td></tr><tr><td>Word : Antonym</td><td>Hot : Cold :: Light : Dark</td></tr><tr><td>Degree (intensity)</td><td>Warm : Hot :: Cool : Cold</td></tr><tr><td>Cause : Effect</td><td>Fire : Ash :: Rain : Flood</td></tr><tr><td>Study : Subject</td><td>Cardiology : Heart :: Entomology : Insects</td></tr><tr><td>Male : Female</td><td>Tiger : Tigress :: Lion : Lioness</td></tr></table><div class='callout tip'><strong>Strategy</strong>Always frame the relationship in a <em>full sentence</em>: &quot;A doctor treats a patient&quot;. Then check which option fits the same sentence.</div>"
+    },
+    {
+      "title": "Question Formats & Worked Examples",
+      "body": "<h3>Format 1 — Complete the pair</h3><div class='worked-example'><div class='we-q'>5 : 36 :: 6 : ?</div><div class='we-sol'>Pattern: n : (n+1)². So 5 → 36, 6 → 7² = 49. Answer: 49.</div></div><div class='worked-example'><div class='we-q'>Book : Author :: Painting : ?</div><div class='we-sol'>An author writes a book; a painter paints a painting. Answer: Painter.</div></div><h3>Format 2 — Choose the analogous pair</h3><div class='worked-example'><div class='we-q'>Given &quot;Museum : Curator&quot;, which pair is analogous?</div><div class='we-sol'>Relationship: official in charge of a place. Options like &quot;Library : Librarian&quot; fit. Pick the pair where the second manages/cares-for the first.</div></div><h3>Format 3 — Number analogies</h3><div class='worked-example'><div class='we-q'>8 : 64 :: 9 : ?</div><div class='we-sol'>8² = 64, so 9² = 81. Answer: 81.</div></div><div class='worked-example'><div class='we-q'>3 : 27 :: 4 : ?</div><div class='we-sol'>3³ = 27, so 4³ = 64. Answer: 64.</div></div><div class='callout warn'><strong>Negative-marking reminder</strong>Analogy questions are usually quick wins in Tier-I (1 mark after +2/−0.5 is good EV if you're &gt;60% confident). But obscure vocabulary analogies are traps — skip if you genuinely don't know the words.</div>"
+    },
+    {
+      "title": "Letter-Based Analogies",
+      "body": "<p>Letters are treated by their <strong>position in the alphabet</strong> (A=1, B=2, …, Z=26). A common trick: convert letters to numbers and look for the pattern.</p><div class='worked-example'><div class='we-q'>AC : FH :: KM : ?</div><div class='we-sol'>AC → positions 1,3. FH → 6,8. Difference +5,+5. KM → 11,13; add 5,5 → 16,18 = PR. Answer: PR.</div></div><div class='worked-example'><div class='we-q'>ADG : GDA :: CFI : ?</div><div class='we-sol'>Reverse the order: CFI reversed = IFC. Answer: IFC.</div></div><div class='callout tip'><strong>Quick alphabet tip</strong>Remember EJOTY (5,10,15,20,25) and the position of M(13)/N(14) as the halfway marks to count faster.</div>"
+    }
+  ],
+  "practice": [
+    {
+      "id": 1,
+      "question": "Doctor : Patient :: Teacher : ?",
+      "options": [
+        "Class",
+        "Student",
+        "Book",
+        "School"
+      ],
+      "answer": 1,
+      "explanation": "A doctor treats a patient; a teacher teaches a student.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 2,
+      "question": "Book : Author :: Painting : ?",
+      "options": [
+        "Brush",
+        "Canvas",
+        "Painter",
+        "Gallery"
+      ],
+      "answer": 2,
+      "explanation": "An author creates a book; a painter creates a painting.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 3,
+      "question": "Cow : Calf :: Dog : ?",
+      "options": [
+        "Puppy",
+        "Kitten",
+        "Foal",
+        "Cub"
+      ],
+      "answer": 0,
+      "explanation": "Calf is the young of a cow; puppy is the young of a dog.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 4,
+      "question": "Lion : Den :: Bird : ?",
+      "options": [
+        "Tree",
+        "Nest",
+        "Cave",
+        "Hive"
+      ],
+      "answer": 1,
+      "explanation": "A lion lives in a den; a bird lives in a nest.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 5,
+      "question": "Wheel : Car :: Page : ?",
+      "options": [
+        "Paper",
+        "Ink",
+        "Book",
+        "Cover"
+      ],
+      "answer": 2,
+      "explanation": "A wheel is part of a car; a page is part of a book (part : whole).",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 6,
+      "question": "8 : 64 :: 9 : ?",
+      "options": [
+        "72",
+        "81",
+        "90",
+        "99"
+      ],
+      "answer": 1,
+      "explanation": "n : n^2. 8^2 = 64, so 9^2 = 81.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 7,
+      "question": "5 : 36 :: 6 : ?",
+      "options": [
+        "42",
+        "48",
+        "49",
+        "56"
+      ],
+      "answer": 2,
+      "explanation": "Pattern n : (n+1)^2. 5 -> 36, 6 -> 7^2 = 49.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 8,
+      "question": "3 : 27 :: 4 : ?",
+      "options": [
+        "16",
+        "32",
+        "64",
+        "81"
+      ],
+      "answer": 2,
+      "explanation": "n : n^3. 3^3 = 27, so 4^3 = 64.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 9,
+      "question": "Ohm : Resistance :: Ampere : ?",
+      "options": [
+        "Voltage",
+        "Current",
+        "Power",
+        "Pressure"
+      ],
+      "answer": 1,
+      "explanation": "Ohm is the unit of resistance; ampere is the unit of current.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 10,
+      "question": "India : Delhi :: Japan : ?",
+      "options": [
+        "Beijing",
+        "Seoul",
+        "Tokyo",
+        "Bangkok"
+      ],
+      "answer": 2,
+      "explanation": "Delhi is the capital of India; Tokyo is the capital of Japan.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 11,
+      "question": "Hot : Cold :: Light : ?",
+      "options": [
+        "Sun",
+        "Bright",
+        "Dark",
+        "Heat"
+      ],
+      "answer": 2,
+      "explanation": "Antonyms: hot/cold, light/dark.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 12,
+      "question": "Cardiology : Heart :: Entomology : ?",
+      "options": [
+        "Birds",
+        "Insects",
+        "Fish",
+        "Reptiles"
+      ],
+      "answer": 1,
+      "explanation": "Cardiology is the study of the heart; entomology is the study of insects.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 13,
+      "question": "Tiger : Tigress :: Lion : ?",
+      "options": [
+        "Lionel",
+        "Lioness",
+        "Cub",
+        "Tiger"
+      ],
+      "answer": 1,
+      "explanation": "Male : female form. Tigress is female tiger; lioness is female lion.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 14,
+      "question": "Carpenter : Wood :: Blacksmith : ?",
+      "options": [
+        "Iron",
+        "Stone",
+        "Glass",
+        "Clay"
+      ],
+      "answer": 0,
+      "explanation": "A carpenter works with wood; a blacksmith works with iron.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 15,
+      "question": "AC : FH :: KM : ?",
+      "options": [
+        "PR",
+        "PS",
+        "QS",
+        "RT"
+      ],
+      "answer": 0,
+      "explanation": "Letter positions: AC(1,3), FH(6,8) add 5,5. KM(11,13) + 5,5 = 16,18 = PR.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 16,
+      "question": "4 : 20 :: 6 : ?",
+      "options": [
+        "30",
+        "36",
+        "42",
+        "48"
+      ],
+      "answer": 2,
+      "explanation": "Pattern: n : n x (n+1). 4 x 5 = 20, so 6 x 7 = 42.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 17,
+      "question": "Fire : Ash :: Rain : ?",
+      "options": [
+        "Cloud",
+        "Water",
+        "Flood",
+        "Umbrella"
+      ],
+      "answer": 2,
+      "explanation": "Cause : effect. Fire produces ash; rain (in excess) produces flood.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 18,
+      "question": "Knife : Cut :: Pen : ?",
+      "options": [
+        "Ink",
+        "Paper",
+        "Write",
+        "Sharp"
+      ],
+      "answer": 2,
+      "explanation": "Tool : function. A knife cuts; a pen writes.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 19,
+      "question": "2 : 8 :: 3 : ?",
+      "options": [
+        "9",
+        "15",
+        "27",
+        "24"
+      ],
+      "answer": 2,
+      "explanation": "n : n^3. 2^3 = 8, so 3^3 = 27.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 20,
+      "question": "Petal : Flower :: Leaf : ?",
+      "options": [
+        "Stem",
+        "Tree",
+        "Branch",
+        "Root"
+      ],
+      "answer": 1,
+      "explanation": "Part : whole. A petal is part of a flower; a leaf is part of a tree.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 21,
+      "question": "Museum : Curator :: Library : ?",
+      "options": [
+        "Reader",
+        "Book",
+        "Librarian",
+        "Shelf"
+      ],
+      "answer": 2,
+      "explanation": "A curator manages a museum; a librarian manages a library.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 22,
+      "question": "12 : 20 :: 30 : ?",
+      "options": [
+        "40",
+        "42",
+        "44",
+        "48"
+      ],
+      "answer": 1,
+      "explanation": "Pattern: n = a x b with a-b constant. 12 = 3x4, 20 = 4x5 (consecutive). 30 = 5x6, ? = 6x7 = 42.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 23,
+      "question": "Warm : Hot :: Cool : ?",
+      "options": [
+        "Ice",
+        "Cold",
+        "Warm",
+        "Freeze"
+      ],
+      "answer": 1,
+      "explanation": "Degree (intensified). Warm -> hot; cool -> cold.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 24,
+      "question": "Captain : Team :: Pilot : ?",
+      "options": [
+        "Plane",
+        "Cockpit",
+        "Crew",
+        "Airport"
+      ],
+      "answer": 2,
+      "explanation": "A captain leads a team; a pilot leads a crew.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 25,
+      "question": "AB : CD :: EF : ?",
+      "options": [
+        "GH",
+        "FG",
+        "EG",
+        "FH"
+      ],
+      "answer": 0,
+      "explanation": "Each letter shifts by +2: AB->CD, EF->GH.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 26,
+      "question": "49 : 56 :: 36 : ?",
+      "options": [
+        "42",
+        "48",
+        "49",
+        "54"
+      ],
+      "answer": 0,
+      "explanation": "Pattern: n^2 : n(n+1). 7^2=49 and 7x8=56; 6^2=36 and 6x7=42.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 27,
+      "question": "Peacock : India :: Kangaroo : ?",
+      "options": [
+        "China",
+        "Africa",
+        "Australia",
+        "Brazil"
+      ],
+      "answer": 2,
+      "explanation": "National animal/bird : country. Peacock is India's; kangaroo is Australia's.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 28,
+      "question": "Stethoscope : Doctor :: Gavel : ?",
+      "options": [
+        "Lawyer",
+        "Judge",
+        "Carpenter",
+        "Auctioneer"
+      ],
+      "answer": 1,
+      "explanation": "Tool : user. A doctor uses a stethoscope; a judge uses a gavel.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 29,
+      "question": "1 : 1 :: 2 : 8 :: 3 : 27 :: 4 : ?",
+      "options": [
+        "64",
+        "81",
+        "16",
+        "256"
+      ],
+      "answer": 0,
+      "explanation": "n : n^3. 1^3=1, 2^3=8, 3^3=27, 4^3=64.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 30,
+      "question": "Earth : Planet :: Moon : ?",
+      "options": [
+        "Star",
+        "Satellite",
+        "Sun",
+        "Orbit"
+      ],
+      "answer": 1,
+      "explanation": "Earth is a planet; the moon is a satellite.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 31,
+      "question": "College : Student :: Hospital : ?",
+      "options": [
+        "Doctor",
+        "Patient",
+        "Nurse",
+        "Bed"
+      ],
+      "answer": 1,
+      "explanation": "A student is served by/attends a college; a patient is served by a hospital.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 32,
+      "question": "Menu : Restaurant :: Catalogue : ?",
+      "options": [
+        "Book",
+        "Store",
+        "Library",
+        " Mall"
+      ],
+      "answer": 1,
+      "explanation": "A menu lists a restaurant's offerings; a catalogue lists a store's offerings.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 33,
+      "question": "Mountain : Hill :: River : ?",
+      "options": [
+        "Sea",
+        "Stream",
+        "Ocean",
+        "Lake"
+      ],
+      "answer": 1,
+      "explanation": "Big : small of the same type. Mountain : hill; river : stream.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 34,
+      "question": "BD : FH :: CE : ?",
+      "options": [
+        "EG",
+        "GI",
+        "FH",
+        "DF"
+      ],
+      "answer": 1,
+      "explanation": "BD(2,4) -> FH(6,8): each +4. CE(3,5) + 4 = GI(7,9).",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 35,
+      "question": "Odometer : Speed :: Barometer : ?",
+      "options": [
+        "Distance",
+        "Pressure",
+        "Temperature",
+        "Humidity"
+      ],
+      "answer": 1,
+      "explanation": "An odometer measures distance/speed; a barometer measures atmospheric pressure.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    }
+  ]
+}

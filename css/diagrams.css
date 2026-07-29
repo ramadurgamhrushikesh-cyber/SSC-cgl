@@ -1,0 +1,55 @@
+/* =====================================================================
+   diagrams.css — styles for SVG figures, Venn diagrams, charts, grids
+   used by topic reading pages & non-verbal question figures.
+   ===================================================================== */
+
+/* Generic figure wrapper */
+.figure {
+  margin: 18px 0; text-align: center;
+  background: var(--bg-elev);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-sm);
+  padding: 18px;
+}
+.figure svg { display: block; margin: 0 auto; }
+.figure .fig-caption { font-size: 12.5px; color: var(--text-muted); margin-top: 10px; font-style: italic; }
+
+/* shared SVG palette — inherits currentColor for strokes where possible */
+.fig-svg { font-family: var(--sans); }
+.fig-svg .stroke-accent { stroke: var(--accent); }
+.fig-svg .fill-accent { fill: var(--accent); }
+.fig-svg .label { fill: var(--text); font-size: 13px; }
+.fig-svg .label-sm { fill: var(--text-muted); font-size: 11px; }
+.fig-svg .axis { stroke: var(--text-dim); stroke-width: 1.5; }
+.fig-svg .grid-line { stroke: var(--border-soft); stroke-width: 1; }
+
+/* Venn diagram circles */
+.venn-circle { fill-opacity: .35; stroke-width: 2; }
+.venn-1 { fill: var(--blue);   stroke: var(--blue); }
+.venn-2 { fill: var(--accent); stroke: var(--accent); }
+.venn-3 { fill: var(--green);  stroke: var(--green); }
+
+/* Mirror-image / non-verbal option grid */
+.nv-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin: 12px 0; }
+.nv-cell {
+  background: var(--bg-elev-2); border: 1px solid var(--border-soft);
+  border-radius: 8px; padding: 8px; min-height: 70px;
+  display: grid; place-items: center;
+}
+.nv-cell .nv-key { font-size: 11px; color: var(--text-dim); margin-top: 4px; }
+
+/* number line */
+.num-line { overflow-x: auto; padding: 6px 0; }
+
+/* inline equation display block */
+.eqn {
+  display: block; margin: 14px auto; padding: 12px 18px;
+  background: var(--bg-elev-2); border-radius: 8px; border: 1px solid var(--border-soft);
+  text-align: center; overflow-x: auto;
+}
+
+/* table for worked data */
+.data-table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 14px; }
+.data-table th, .data-table td { padding: 8px 12px; border: 1px solid var(--border); text-align: center; }
+.data-table th { background: var(--bg-elev-2); color: var(--text-muted); font-weight: 600; }
+.data-table tr:nth-child(even) td { background: var(--bg-elev); }

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SSC CGL Tier-I · Self-Learning Tool</title>
+  <meta name="description" content="A self-paced, beautiful learning tool for SSC CGL Tier-I preparation — Quantitative Aptitude, Reasoning, and more.">
+  <!-- KaTeX for math rendering -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+          onload="renderMathInElement && window.__katexReady && window.__katexReady()"></script>
+  <!-- Confetti for celebration -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  <link rel="stylesheet" href="css/style.css?v=6">
+  <link rel="stylesheet" href="css/diagrams.css?v=6">
+</head>
+<body>
+  <!-- Safety net: hide celebration overlay & watchdog for init -->
+  <script>
+    (function () {
+      // Watchdog: if #app still shows "Loading" after 6s, show a helpful message.
+      // Also ensure the celebration overlay isn't stuck open from a prior session.
+      setTimeout(function () {
+        var o = document.getElementById("celebrateOverlay");
+        if (o) o.classList.remove("show");
+        var app = document.getElementById("app");
+        if (app && /Loading/.test(app.innerHTML)) {
+          var usingServer = location.protocol.indexOf("http") === 0;
+          app.innerHTML = '<div class="empty-state"><div class="es-icon">⚠️</div><h2>App did not finish loading</h2>' +
+            '<p class="muted">The dashboard did not initialise in time.</p>' +
+            (usingServer
+              ? '<p class="dim">You ARE using a server, so this is a real error. Please open the browser console (F12 → Console) — the red message will say exactly which file/line failed, and share it so I can fix it.</p>'
+              : '<p class="dim">The page was opened directly as a file (file://). The browser blocks the JSON data files in that mode.<br><br>Fix: in the <code>ssc-cgl-prep</code> folder run <code>python -m http.server 8765</code>, then open <code>http://localhost:8765/</code> (hard-refresh with Ctrl+Shift+R).</p>') +
+            '</div>';
+        }
+      }, 6000);
+    })();
+  </script>
+
+  <!-- ===== TOP BAR ===== -->
+  <header class="topbar">
+    <div class="topbar-left">
+      <button id="hamburgerBtn" class="hamburger" title="Open menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <button id="homeBtn" class="brand" title="Home">
+        <span class="brand-mark">▲</span>
+        <span class="brand-text">SSC <strong>CGL</strong></span>
+        <span class="tier-badge">TIER-I</span>
+      </button>
+    </div>
+    <div class="topbar-right">
+      <button id="calendarBtn" class="icon-btn" title="Open calendar">
+        📅
+      </button>
+      <button id="themeToggle" class="icon-btn" title="Toggle theme">
+        <span class="theme-icon-dark">☾</span>
+        <span class="theme-icon-light">☀</span>
+      </button>
+      <div class="clock" id="liveClock" title="Current time">
+        <div class="clock-time" id="clockTime">--:--:--</div>
+        <div class="clock-date" id="clockDate">—</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== CALENDAR MODAL ===== -->
+  <div class="calendar-overlay" id="calendarOverlay">
+    <div class="calendar-card">
+      <div class="calendar-head">
+        <button class="cal-nav" id="calPrev" title="Previous month">‹</button>
+        <div class="cal-title" id="calTitle">—</div>
+        <button class="cal-nav" id="calNext" title="Next month">›</button>
+      </div>
+      <div class="cal-legend">
+        <span class="cal-leg"><span class="cal-dot full"></span> All tasks done</span>
+        <span class="cal-leg"><span class="cal-dot partial"></span> Partial</span>
+        <span class="cal-leg"><span class="cal-dot none"></span> Not started</span>
+      </div>
+      <div class="cal-grid" id="calGrid"></div>
+      <div class="cal-footer" id="calFooter"></div>
+      <button class="btn btn-primary" id="calClose" style="margin-top:16px;width:100%">Close</button>
+    </div>
+  </div>
+
+  <!-- ===== THOUGHT FOR THE DAY ===== -->
+  <div class="thought-banner" id="thoughtBanner">
+    <span class="thought-icon">💭</span>
+    <span class="thought-text" id="thoughtText"></span>
+    <span class="thought-author" id="thoughtAuthor"></span>
+  </div>
+
+  <!-- ===== SIDEBAR NAV ===== -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-head">
+      <div class="sh-avatar">L</div>
+      <div>
+        <div class="sh-name">Lekha</div>
+        <div class="sh-role">SSC CGL Aspirant</div>
+      </div>
+    </div>
+    <div class="sidebar-section-label">Navigate</div>
+    <div class="sidebar-item active" data-route="#/"><span class="si-icon">🏠</span> Dashboard</div>
+    <div class="sidebar-section-label">Tier-I Sections</div>
+    <div class="sidebar-item" data-route="#/section/quant"><span class="si-icon">🔢</span> Quantitative Aptitude</div>
+    <div class="sidebar-item" data-route="#/section/reasoning"><span class="si-icon">🧩</span> Reasoning</div>
+    <div class="sidebar-item coming" data-route="#/section/ga"><span class="si-icon">🌍</span> General Awareness <span class="si-badge">soon</span></div>
+    <div class="sidebar-item coming" data-route="#/section/english"><span class="si-icon">📖</span> English <span class="si-badge">soon</span></div>
+    <div class="sidebar-section-label">More</div>
+    <div class="sidebar-item" id="themeToggleSidebar"><span class="si-icon">🎨</span> Toggle Theme</div>
+    <div class="sidebar-item" id="resetProgress"><span class="si-icon">♻️</span> Reset Progress</div>
+    <div class="sidebar-footer">Progress saved on this device · Made for Lekha 💜</div>
+  </aside>
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+  <!-- ===== RESET PROGRESS CONFIRMATION MODAL ===== -->
+  <div class="confirm-overlay" id="resetConfirmOverlay">
+    <div class="confirm-card">
+      <div class="confirm-emoji">⚠️</div>
+      <h3>Reset all progress?</h3>
+      <p class="muted">This will permanently delete all your topic completions, practice scores, daily history, and mock results. <strong>This cannot be undone.</strong></p>
+      <div class="confirm-actions">
+        <button class="btn" id="resetCancel">Cancel</button>
+        <button class="btn btn-danger" id="resetConfirm">Yes, reset everything</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb" id="breadcrumb"></nav>
+
+  <!-- ===== MAIN VIEW (SPA) ===== -->
+  <main id="app" class="app-shell">
+    <!-- Views render here -->
+    <div class="loader">Loading…</div>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <span>SSC CGL Tier-I Self-Learning Tool · Content sourced from R.S. Aggarwal &amp; Dinesh Khattar</span>
+    <span class="footer-note">Progress saved locally on this device</span>
+  </footer>
+
+  <!-- ===== CELEBRATION OVERLAY ===== -->
+  <div id="celebrateOverlay" class="celebrate-overlay">
+    <div class="celebrate-card">
+      <div class="celebrate-emoji">🎉</div>
+      <div class="celebrate-title" id="celebrateTitle">Eureka, Lekha!</div>
+      <div class="celebrate-sub" id="celebrateSub"></div>
+      <div class="celebrate-quote" id="celebrateQuote"></div>
+      <button class="btn btn-primary" id="celebrateClose">Continue learning →</button>
+    </div>
+  </div>
+
+  <!-- ===== SCRIPTS (v6 cache-bust: always fetch latest) ===== -->
+  <script src="js/clock.js?v=6"></script>
+  <script src="js/progress.js?v=6"></script>
+  <script src="js/celebrate.js?v=6"></script>
+  <script src="js/practice.js?v=6"></script>
+  <script src="js/mock.js?v=6"></script>
+  <script src="js/thought.js?v=6"></script>
+  <script src="js/calendar.js?v=6"></script>
+  <script src="js/app.js?v=6"></script>
+</body>
+</html>

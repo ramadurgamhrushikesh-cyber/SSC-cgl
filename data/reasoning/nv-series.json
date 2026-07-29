@@ -1,0 +1,532 @@
+{
+  "id": "nv-series",
+  "section": "reasoning",
+  "name": "Series / Pattern (Non-Verbal)",
+  "difficulty": "medium",
+  "tier1_weight": "high",
+  "timeline_days": 3,
+  "est_hours": 4,
+  "pages": [
+    {
+      "title": "Non-Verbal Series — The Idea",
+      "body": "<p>A <strong>non-verbal series</strong> gives you a sequence of figures that follow a hidden rule. Your job is to spot the rule and pick the figure that comes next (or the one that breaks the rule — 'odd one out').</p><div class='figure fig-svg'><svg viewBox='0 0 360 90' width='360' height='90'><polygon points='20,30 60,30 40,70' fill='var(--accent)'/><g transform='rotate(45 110 50)'><polygon points='90,30 130,30 110,70' fill='var(--accent)'/></g><g transform='rotate(90 200 50)'><polygon points='180,30 220,30 200,70' fill='var(--accent)'/></g><text x='280' y='60' text-anchor='middle' font-size='28' fill='var(--text-muted)'>?</text><text x='180' y='85' text-anchor='middle' class='label-sm'>each triangle rotates 45&deg;</text></svg><div class='fig-caption'>Spot the rule (here: rotation) then continue it.</div></div><div class='callout'><strong>Three things to track</strong>1) <em>Count</em> of elements &nbsp; 2) <em>Position/orientation</em> (rotation) &nbsp; 3) <em>Shading/size</em>.</div>"
+    },
+    {
+      "title": "Common Patterns",
+      "body": "<h3>1. Rotation</h3><p>The whole figure (or a part) rotates by a fixed angle each step — often 45&deg;, 90&deg;, or 180&deg;.</p><h3>2. Element count</h3><p>The number of dots/lines/sides grows by a fixed amount (or follows a sequence like 1, 2, 3, 4 or Fibonacci 1, 1, 2, 3, 5).</p><h3>3. Addition / subtraction of a part</h3><p>A new element is added (or removed) at each step.</p><h3>4. Alternation</h3><p>The figure flips between two states (e.g. pointing left, then right, then left).</p><h3>5. Shading / size</h3><p>Elements get shaded/unshaded, or grow/shrink, in a cycle.</p><div class='callout tip'><strong>Strategy</strong>Look at just ONE element and see how it changes from figure 1 to figure 2. Confirm the same change from 2 to 3. If it holds, apply it to get the next.</div>"
+    },
+    {
+      "title": "Odd-One-Out & Strategy",
+      "body": "<p>Sometimes you're given 4–5 figures and must find the one that doesn't follow the common rule. Apply the same tracking: find the property shared by most, then the deviant is the answer.</p><div class='callout warn'><strong>Negative-marking reminder</strong>Non-verbal series questions are usually quick once you see the rule, but easy to misread under time pressure. In Tier-I, if a rule isn't obvious within ~40 seconds, mark your best guess and move on — don't burn the section's 15 minutes on one figure.</div><div class='callout tip'><strong>Time tip</strong>Rotation questions: count how many steps shown, multiply by the rotation angle. If a full 360&deg; is reached, the figure returns to its start — a common &quot;trick&quot; option.</div>"
+    }
+  ],
+  "practice": [
+    {
+      "question": "Find the next figure in the series:<br><br><div class=\"nv-grid\" style=\"grid-template-columns:repeat(5,1fr)\"><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><polygon points=\"22,8 36,34 8,34\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(90 22 22)\"><polygon points=\"22,8 36,34 8,34\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(180 22 22)\"><polygon points=\"22,8 36,34 8,34\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(270 22 22)\"><polygon points=\"22,8 36,34 8,34\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\">?</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"28\" text-anchor=\"middle\" font-size=\"22\" fill=\"var(--text-muted)\">?</text></svg></div></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><polygon points=\"22,8 36,34 8,34\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(450 22 22)\"><polygon points=\"22,8 36,34 8,34\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(360 22 22)\"><polygon points=\"22,8 36,34 8,34\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(270 22 22)\"><polygon points=\"22,8 36,34 8,34\" fill=\"var(--accent)\"/></g></svg></div>"
+      ],
+      "answer": 2,
+      "explanation": "Each figure rotates by 90 degrees. The next figure is option C.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "question": "In a set of four figures, three arrows point upward and one points to the right. Which statement correctly identifies the odd one out?",
+      "options": [
+        "The upward-pointing arrow is the odd one",
+        "The right-pointing arrow is the odd one",
+        "There is no odd one",
+        "All four are identical"
+      ],
+      "answer": 1,
+      "explanation": "Three of the four figures share the same orientation (up). The single figure pointing right differs from them, so it is the odd one out.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 3,
+      "question": "Find the next figure in the series (the figure rotates by 90&deg; each step):<br><br><div class=\"nv-grid\" style=\"grid-template-columns:repeat(5,1fr)\"><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(90 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(180 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(270 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\">?</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"28\" text-anchor=\"middle\" font-size=\"22\" fill=\"var(--text-muted)\">?</text></svg></div></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(450 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(360 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(270 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div>"
+      ],
+      "answer": 2,
+      "explanation": "Each figure is the previous one rotated by 90 degrees. The next figure is rotated a further 90 degrees, giving option C.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 4,
+      "question": "A series shows shapes with sides 3, 4, 5, 6. The next shape has how many sides?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 2,
+      "explanation": "Sides increase by 1 each step: triangle(3), square(4), pentagon(5), hexagon(6), heptagon(7).",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 5,
+      "question": "Find the next figure in the series (the arrow flips direction each step):<br><br><div class=\"nv-grid\" style=\"grid-template-columns:repeat(4,1fr)\"><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></svg></div><div class=\"nv-cell\"><div class=\"nv-key\">?</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"28\" text-anchor=\"middle\" font-size=\"22\" fill=\"var(--text-muted)\">?</text></svg></div></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(90 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><circle cx=\"22\" cy=\"12\" r=\"4\" fill=\"var(--accent)\"/></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div>"
+      ],
+      "answer": 3,
+      "explanation": "The arrow points right, then left, then right — it alternates. The next points left. Option D.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 6,
+      "question": "A square rotates 45 degrees each step. How many steps to return to its original orientation?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "answer": 2,
+      "explanation": "360 / 45 = 8 steps for a full rotation back to start.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 7,
+      "question": "Find the next figure in the series (the figure rotates by 45&deg; each step):<br><br><div class=\"nv-grid\" style=\"grid-template-columns:repeat(5,1fr)\"><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(45 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(90 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(135 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\">?</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"28\" text-anchor=\"middle\" font-size=\"22\" fill=\"var(--text-muted)\">?</text></svg></div></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(225 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(180 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(135 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div>"
+      ],
+      "answer": 2,
+      "explanation": "Each figure is the previous one rotated by 45 degrees. The next figure is rotated a further 45 degrees, giving option C.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "question": "A square rotates 90 degrees clockwise at each step. After 2 steps it points:",
+      "options": [
+        "Original (up)",
+        "90 deg (right)",
+        "180 deg (upside down)",
+        "270 deg (left)"
+      ],
+      "answer": 2,
+      "explanation": "2 x 90 = 180 degrees, so it is upside down relative to the start.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning",
+      "id": 8
+    },
+    {
+      "id": 9,
+      "question": "Find the next figure in the series (rotation pattern):<br><br><div class=\"nv-grid\" style=\"grid-template-columns:repeat(5,1fr)\"><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(60 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(120 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(180 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\">?</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"28\" text-anchor=\"middle\" font-size=\"22\" fill=\"var(--text-muted)\">?</text></svg></div></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(180 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(240 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(300 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div>"
+      ],
+      "answer": 1,
+      "explanation": "Each figure is the previous rotated by 60 degrees. Next: option B.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 10,
+      "question": "Sequence: 1 dot, 2 dots, 3 dots, 5 dots. The likely next count (if pattern is Fibonacci-like) is:",
+      "options": [
+        "4",
+        "7",
+        "8",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "1,2,3,5 follows Fibonacci (each = sum of two previous), so next = 3+5 = 8.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 11,
+      "question": "Find the next figure in the series (rotation pattern):<br><br><div class=\"nv-grid\" style=\"grid-template-columns:repeat(5,1fr)\"><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(60 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(120 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(180 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\">?</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"28\" text-anchor=\"middle\" font-size=\"22\" fill=\"var(--text-muted)\">?</text></svg></div></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(180 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(240 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(300 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div>"
+      ],
+      "answer": 1,
+      "explanation": "Each figure is the previous rotated by 60 degrees. Next: option B.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 12,
+      "question": "Find the next figure in the series (rotation pattern):<br><br><div class=\"nv-grid\" style=\"grid-template-columns:repeat(5,1fr)\"><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(180 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(360 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(540 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\">?</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"28\" text-anchor=\"middle\" font-size=\"22\" fill=\"var(--text-muted)\">?</text></svg></div></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(720 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(540 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(900 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div>"
+      ],
+      "answer": 1,
+      "explanation": "Each figure is the previous rotated by 180 degrees. Next: option B.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 13,
+      "question": "Find the next figure in the series (rotation pattern):<br><br><div class=\"nv-grid\" style=\"grid-template-columns:repeat(5,1fr)\"><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(135 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(270 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(405 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\">?</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"28\" text-anchor=\"middle\" font-size=\"22\" fill=\"var(--text-muted)\">?</text></svg></div></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(540 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(675 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(405 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div>"
+      ],
+      "answer": 0,
+      "explanation": "Each figure is the previous rotated by 135 degrees. Next: option A.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 14,
+      "question": "In the sequence [circle, square, circle, square, ?], the next figure is a:",
+      "options": [
+        "Circle",
+        "Square",
+        "Triangle",
+        "Star"
+      ],
+      "answer": 0,
+      "explanation": "The pattern alternates circle, square. After square comes circle.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 15,
+      "question": "A line rotates 45 degrees each step. After 8 steps it has turned a total of:",
+      "options": [
+        "180 degrees",
+        "270 degrees",
+        "360 degrees (full circle)",
+        "90 degrees"
+      ],
+      "answer": 2,
+      "explanation": "8 x 45 = 360 degrees = one full rotation, back to start.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "question": "A line rotates 180 degrees each step (flips). After an odd number of steps it:",
+      "options": [
+        "Points up",
+        "Points opposite to start",
+        "Points the same as start",
+        "Disappears"
+      ],
+      "answer": 1,
+      "explanation": "Each 180-degree flip reverses direction. An odd number of flips ends opposite to the start.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning",
+      "id": 16
+    },
+    {
+      "question": "A triangle rotates 120 degrees each step. After 3 steps it has rotated:",
+      "options": [
+        "120 degrees",
+        "240 degrees",
+        "360 degrees (back to start)",
+        "180 degrees"
+      ],
+      "answer": 2,
+      "explanation": "3 x 120 = 360 degrees = full circle, so it returns to the starting orientation.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning",
+      "id": 17
+    },
+    {
+      "id": 18,
+      "question": "Which transformation keeps a circle looking unchanged?",
+      "options": [
+        "Rotation",
+        "Mirror reflection",
+        "Both rotation and mirror reflection",
+        "Neither"
+      ],
+      "answer": 2,
+      "explanation": "A circle is fully symmetric, so both rotation and mirror reflection leave it looking the same.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "question": "Find the next figure in the series:<br><br><div class=\"nv-grid\" style=\"grid-template-columns:repeat(5,1fr)\"><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><polygon points=\"22,8 36,34 8,34\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(120 22 22)\"><polygon points=\"22,8 36,34 8,34\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(240 22 22)\"><polygon points=\"22,8 36,34 8,34\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(360 22 22)\"><polygon points=\"22,8 36,34 8,34\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\">?</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"28\" text-anchor=\"middle\" font-size=\"22\" fill=\"var(--text-muted)\">?</text></svg></div></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(600 22 22)\"><polygon points=\"22,8 36,34 8,34\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(360 22 22)\"><polygon points=\"22,8 36,34 8,34\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><polygon points=\"22,8 36,34 8,34\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(480 22 22)\"><polygon points=\"22,8 36,34 8,34\" fill=\"var(--accent)\"/></g></svg></div>"
+      ],
+      "answer": 3,
+      "explanation": "Each figure rotates by 120 degrees. The next figure is option D.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning",
+      "id": 19
+    },
+    {
+      "question": "Find the next figure in the series:<br><br><div class=\"nv-grid\" style=\"grid-template-columns:repeat(5,1fr)\"><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><rect x=\"10\" y=\"10\" width=\"24\" height=\"24\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(45 22 22)\"><rect x=\"10\" y=\"10\" width=\"24\" height=\"24\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(90 22 22)\"><rect x=\"10\" y=\"10\" width=\"24\" height=\"24\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(135 22 22)\"><rect x=\"10\" y=\"10\" width=\"24\" height=\"24\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\">?</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"28\" text-anchor=\"middle\" font-size=\"22\" fill=\"var(--text-muted)\">?</text></svg></div></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(180 22 22)\"><rect x=\"10\" y=\"10\" width=\"24\" height=\"24\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(225 22 22)\"><rect x=\"10\" y=\"10\" width=\"24\" height=\"24\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><rect x=\"10\" y=\"10\" width=\"24\" height=\"24\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(135 22 22)\"><rect x=\"10\" y=\"10\" width=\"24\" height=\"24\" fill=\"var(--accent)\"/></g></svg></div>"
+      ],
+      "answer": 0,
+      "explanation": "Each figure rotates by 45 degrees. The next figure is option A.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning",
+      "id": 20
+    },
+    {
+      "question": "Find the next figure in the series:<br><br><div class=\"nv-grid\" style=\"grid-template-columns:repeat(5,1fr)\"><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(120 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(240 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(360 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\">?</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"28\" text-anchor=\"middle\" font-size=\"22\" fill=\"var(--text-muted)\">?</text></svg></div></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(480 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(600 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(360 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div>"
+      ],
+      "answer": 0,
+      "explanation": "Each figure rotates by 120 degrees. The next figure is option A.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning",
+      "id": 21
+    },
+    {
+      "question": "A pattern adds one shaded square each step: 0,1,2,3. After 5 total steps there are:",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "Step count starts at 0 shaded. After 5 steps (steps 1-5) there are 5 shaded squares.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning",
+      "id": 22
+    },
+    {
+      "id": 23,
+      "question": "Find the next figure in the series (the figure rotates by 45&deg; each step):<br><br><div class=\"nv-grid\" style=\"grid-template-columns:repeat(5,1fr)\"><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(45 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(90 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(135 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\">?</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"28\" text-anchor=\"middle\" font-size=\"22\" fill=\"var(--text-muted)\">?</text></svg></div></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(180 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(225 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(135 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div>"
+      ],
+      "answer": 1,
+      "explanation": "Each figure is the previous one rotated by 45 degrees. The next figure is rotated a further 45 degrees, giving option B.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 24,
+      "question": "In a non-verbal series, the most reliable way to detect the pattern is to:",
+      "options": [
+        "Count the colours",
+        "Observe how a single element changes step to step",
+        "Guess randomly",
+        "Look at the question number"
+      ],
+      "answer": 1,
+      "explanation": "Track one element (rotation, count, position, shading) across consecutive figures. The consistent change is the rule.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 25,
+      "question": "A figure gains one dot at each step: step1=2, step2=3, step3=4. At step 6 there are:",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 2,
+      "explanation": "Each step adds 1 dot: step1=2, so step6 = 2 + 5 = 7 dots.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "question": "Series: 2 lines, 4 lines, 6 lines, 8 lines. The next figure has:",
+      "options": [
+        "9 lines",
+        "10 lines",
+        "12 lines",
+        "16 lines"
+      ],
+      "answer": 1,
+      "explanation": "Lines increase by 2 each step: 2,4,6,8 -> next is 10.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning",
+      "id": 26
+    },
+    {
+      "id": 27,
+      "question": "A figure rotates 90 degrees clockwise at each step. Starting position up, after 4 steps it points:",
+      "options": [
+        "Up (original)",
+        "Right",
+        "Down",
+        "Left"
+      ],
+      "answer": 0,
+      "explanation": "4 x 90 = 360 degrees = full turn, so it returns to the original (up).",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "question": "Find the next figure in the series:<br><br><div class=\"nv-grid\" style=\"grid-template-columns:repeat(5,1fr)\"><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(30 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(60 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(90 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\">?</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"28\" text-anchor=\"middle\" font-size=\"22\" fill=\"var(--text-muted)\">?</text></svg></div></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(150 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(90 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(120 22 22)\"><polyline points=\"34,12 12,12 12,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div>"
+      ],
+      "answer": 3,
+      "explanation": "Each figure rotates by 30 degrees. The next figure is option D.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning",
+      "id": 28
+    },
+    {
+      "question": "In a set of four arrow figures, three point up and one points right. The odd-one-out figure is the one that:",
+      "options": [
+        "Points up, like the majority",
+        "Points right, differing from the rest",
+        "Has no orientation",
+        "Is the smallest"
+      ],
+      "answer": 1,
+      "explanation": "The odd one out is the figure whose property differs from the group. Three point up; the one pointing right is the deviant.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning",
+      "id": 29
+    },
+    {
+      "id": 30,
+      "question": "Find the next figure in the series (rotation pattern):<br><br><div class=\"nv-grid\" style=\"grid-template-columns:repeat(5,1fr)\"><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(30 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(60 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(90 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\">?</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"28\" text-anchor=\"middle\" font-size=\"22\" fill=\"var(--text-muted)\">?</text></svg></div></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(90 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(120 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(150 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div>"
+      ],
+      "answer": 2,
+      "explanation": "Each figure is the previous rotated by 30 degrees. Next: option C.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 31,
+      "question": "Find the next figure in the series (number of dots increases by 1 each step):<br><br><div class=\"nv-grid\" style=\"grid-template-columns:repeat(4,1fr)\"><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><circle cx=\"22\" cy=\"12\" r=\"4\" fill=\"var(--accent)\"/></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><circle cx=\"22\" cy=\"12\" r=\"4\" fill=\"var(--accent)\"/><circle cx=\"22\" cy=\"22\" r=\"4\" fill=\"var(--accent)\"/></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><circle cx=\"22\" cy=\"12\" r=\"4\" fill=\"var(--accent)\"/><circle cx=\"22\" cy=\"22\" r=\"4\" fill=\"var(--accent)\"/><circle cx=\"22\" cy=\"32\" r=\"4\" fill=\"var(--accent)\"/></svg></div><div class=\"nv-cell\"><div class=\"nv-key\">?</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"28\" text-anchor=\"middle\" font-size=\"22\" fill=\"var(--text-muted)\">?</text></svg></div></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><circle cx=\"22\" cy=\"12\" r=\"4\" fill=\"var(--accent)\"/><circle cx=\"22\" cy=\"22\" r=\"4\" fill=\"var(--accent)\"/><circle cx=\"22\" cy=\"32\" r=\"4\" fill=\"var(--accent)\"/><circle cx=\"12\" cy=\"22\" r=\"4\" fill=\"var(--accent)\"/></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><rect x=\"10\" y=\"34\" width=\"24\" height=\"5\" fill=\"var(--accent)\"/></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><circle cx=\"22\" cy=\"12\" r=\"4\" fill=\"var(--accent)\"/><circle cx=\"22\" cy=\"22\" r=\"4\" fill=\"var(--accent)\"/><circle cx=\"22\" cy=\"32\" r=\"4\" fill=\"var(--accent)\"/></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><circle cx=\"22\" cy=\"12\" r=\"4\" fill=\"var(--accent)\"/></svg></div>"
+      ],
+      "answer": 0,
+      "explanation": "The number of dots increases by one each step: 1, 2, 3, so the next has 4 dots. Option A.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "question": "Find the next figure in the series:<br><br><div class=\"nv-grid\" style=\"grid-template-columns:repeat(5,1fr)\"><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><polygon points=\"22,8 36,34 8,34\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(60 22 22)\"><polygon points=\"22,8 36,34 8,34\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(120 22 22)\"><polygon points=\"22,8 36,34 8,34\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(180 22 22)\"><polygon points=\"22,8 36,34 8,34\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\">?</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"28\" text-anchor=\"middle\" font-size=\"22\" fill=\"var(--text-muted)\">?</text></svg></div></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(240 22 22)\"><polygon points=\"22,8 36,34 8,34\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(300 22 22)\"><polygon points=\"22,8 36,34 8,34\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(180 22 22)\"><polygon points=\"22,8 36,34 8,34\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><polygon points=\"22,8 36,34 8,34\" fill=\"var(--accent)\"/></g></svg></div>"
+      ],
+      "answer": 0,
+      "explanation": "Each figure rotates by 60 degrees. The next figure is option A.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning",
+      "id": 32
+    },
+    {
+      "id": 33,
+      "question": "Which of these is NOT a common non-verbal series pattern?",
+      "options": [
+        "Rotation",
+        "Addition/removal of elements",
+        "Vowel count of labels",
+        "Change in shading"
+      ],
+      "answer": 2,
+      "explanation": "Vowel counts apply to words, not figures. Rotation, element count, and shading are standard figure patterns.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "question": "A pentagon (5 sides) is followed by a hexagon (6) then a heptagon (7). The pattern is:",
+      "options": [
+        "Sides double",
+        "Sides increase by 1",
+        "Sides decrease",
+        "Sides stay same"
+      ],
+      "answer": 1,
+      "explanation": "5,6,7 — sides increase by 1 each step.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning",
+      "id": 34
+    },
+    {
+      "question": "Find the next figure in the series:<br><br><div class=\"nv-grid\" style=\"grid-template-columns:repeat(5,1fr)\"><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><rect x=\"10\" y=\"10\" width=\"24\" height=\"24\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(90 22 22)\"><rect x=\"10\" y=\"10\" width=\"24\" height=\"24\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(180 22 22)\"><rect x=\"10\" y=\"10\" width=\"24\" height=\"24\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(270 22 22)\"><rect x=\"10\" y=\"10\" width=\"24\" height=\"24\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\">?</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"28\" text-anchor=\"middle\" font-size=\"22\" fill=\"var(--text-muted)\">?</text></svg></div></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(450 22 22)\"><rect x=\"10\" y=\"10\" width=\"24\" height=\"24\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><rect x=\"10\" y=\"10\" width=\"24\" height=\"24\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(360 22 22)\"><rect x=\"10\" y=\"10\" width=\"24\" height=\"24\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(270 22 22)\"><rect x=\"10\" y=\"10\" width=\"24\" height=\"24\" fill=\"var(--accent)\"/></g></svg></div>"
+      ],
+      "answer": 2,
+      "explanation": "Each figure rotates by 90 degrees. The next figure is option C.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning",
+      "id": 35
+    },
+    {
+      "id": 36,
+      "question": "Find the next figure in the series (the figure rotates by 90&deg; each step):<br><br><div class=\"nv-grid\" style=\"grid-template-columns:repeat(5,1fr)\"><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(90 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(180 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(270 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\">?</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"28\" text-anchor=\"middle\" font-size=\"22\" fill=\"var(--text-muted)\">?</text></svg></div></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(360 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(450 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(270 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div>"
+      ],
+      "answer": 0,
+      "explanation": "Each figure is the previous one rotated by 90 degrees. The next figure is rotated a further 90 degrees, giving option A.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 37,
+      "question": "Series: triangle, square, pentagon — the pattern is increasing number of sides. The 6th figure is a:",
+      "options": [
+        "Hexagon",
+        "Heptagon",
+        "Octagon",
+        "Nonagon"
+      ],
+      "answer": 2,
+      "explanation": "n-th figure has n+2 sides. 6th = 8 sides = octagon.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "question": "Find the next figure in the series:<br><br><div class=\"nv-grid\" style=\"grid-template-columns:repeat(5,1fr)\"><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(120 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(240 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\"></div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(360 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div><div class=\"nv-cell\"><div class=\"nv-key\">?</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"28\" text-anchor=\"middle\" font-size=\"22\" fill=\"var(--text-muted)\">?</text></svg></div></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(0 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(600 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(360 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"rotate(480 22 22)\"><polygon points=\"34,22 12,12 12,32\" fill=\"var(--accent)\"/></g></svg></div>"
+      ],
+      "answer": 3,
+      "explanation": "Each figure rotates by 120 degrees. The next figure is option D.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning",
+      "id": 38
+    },
+    {
+      "question": "Figures: circle, square, triangle, circle, square, ?. Next is:",
+      "options": [
+        "Circle",
+        "Square",
+        "Triangle",
+        "Pentagon"
+      ],
+      "answer": 2,
+      "explanation": "The pattern repeats circle, square, triangle. After square comes triangle.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning",
+      "id": 39
+    }
+  ]
+}

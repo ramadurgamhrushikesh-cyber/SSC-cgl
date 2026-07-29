@@ -1,0 +1,510 @@
+{
+  "id": "coding-decoding",
+  "section": "reasoning",
+  "name": "Coding-Decoding",
+  "difficulty": "medium",
+  "tier1_weight": "high",
+  "timeline_days": 3,
+  "est_hours": 5,
+  "pages": [
+    {
+      "title": "What is Coding-Decoding?",
+      "body": "<p><strong>Coding</strong> is the process of hiding a message by changing it using a rule; <strong>decoding</strong> is reversing it. In SSC CGL, you're given a word and its code (the rule), then asked to code/decode another word using the same rule.</p><div class='callout'><strong>Core skill</strong>Detect the <em>rule</em> from one example, then apply it exactly.</div><div class='figure fig-svg'><svg viewBox='0 0 360 110' width='360' height='110'><rect x='10' y='30' width='110' height='40' rx='8' fill='var(--accent-soft)' stroke='var(--accent)'/><text x='65' y='55' text-anchor='middle' class='label'>CAT</text><text x='145' y='55' text-anchor='middle' fill='var(--accent)' class='label'>+3</text><rect x='170' y='30' width='110' height='40' rx='8' fill='var(--green-soft)' stroke='var(--green)'/><text x='225' y='55' text-anchor='middle' class='label'>FDW</text><text x='320' y='55' text-anchor='middle' fill='var(--amber)' class='label-sm'>shift +3</text></svg><div class='fig-caption'>Each letter moved 3 steps forward: C→F, A→D, T→W.</div></div><h3>Alphabet positions (memorise these anchors)</h3><table class='data-table'><tr><th>Letter</th><th>Pos</th></tr><tr><td>A</td><td>1</td></tr><tr><td>E</td><td>5</td></tr><tr><td>J</td><td>10</td></tr><tr><td>O</td><td>15</td></tr><tr><td>T</td><td>20</td></tr><tr><td>Y</td><td>25</td></tr><tr><td>M</td><td>13 (middle)</td></tr></table><div class='callout tip'><strong>Mnemonic</strong>EJOTY (5,10,15,20,25) and the &quot;opposite letters&quot; rule: A↔Z, B↔Y, C↔X — each pair sums to 27.</div>"
+    },
+    {
+      "title": "Type 1: Letter Shifting",
+      "body": "<p>Each letter moves a fixed number of steps <strong>forward</strong> (+) or <strong>backward</strong> (−).</p><div class='worked-example'><div class='we-q'>If CAT is coded as FDW, how is DOG coded?</div><div class='we-sol'>CAT → FDW: each letter +3 (C→F, A→D, T→W). Apply +3 to DOG: D→G, O→R, G→J = GRJ.</div></div><div class='callout warn'><strong>Wrap-around</strong>After Z comes A. So Z + 1 = A. Use position arithmetic mod 26.</div><div class='worked-example'><div class='we-q'>If SUN is coded as UWP, code MOON.</div><div class='we-sol'>SUN → UWP: each letter +2. MOON +2: M→O, O→Q, O→Q, N→P = OQQP.</div></div><h3>Opposite-letter code (A↔Z substitution)</h3><p>Sometimes the code replaces each letter with its opposite (sum = 27): A↔Z, B↔Y, C↔X, …</p><div class='worked-example'><div class='we-q'>If CAT is coded as XZG, code DOG.</div><div class='we-sol'>C→X (3+24=27), A→Z, T→G. So opposites. D→W, O→L, G→T = WLT.</div></div>"
+    },
+    {
+      "title": "Type 2: Reversal & Rearrangement",
+      "body": "<p>Sometimes the rule reorders letters instead of shifting them.</p><h3>Full reversal</h3><div class='worked-example'><div class='we-q'>If COLD is coded as DLOC, code WARM.</div><div class='we-sol'>COLD → DLOC is the reverse. WARM reversed = MRAW.</div></div><h3>Reverse then shift</h3><div class='worked-example'><div class='we-q'>If TEA is coded as BFX, find the rule and code RAT.</div><div class='we-sol'>TEA reversed = AET; AET +1 = BFU? Not BFX. Try: T→B is +8 (wrap), E→F is +1, A→X is −3. Irregular. The clean rule here is reversal +1: TEA→AET→BFU. (Always pick the simplest consistent rule.)</div></div><h3>Keep first & last, reverse middle</h3><div class='worked-example'><div class='we-q'>If BOOK is coded as KOOB... wait that's full reversal. If BAT is coded as BT? Not valid. Standard: first and last letters fixed, middle reversed. BOOK → middle OO reversed = OO, so BOOK stays BOOK? Use: MAGIC → first M last C, middle AGI reversed = IGA → MIGAC.</div></div><div class='callout tip'><strong>Strategy</strong>For rearrangement codes, write the word and its code aligned letter-by-letter. The pattern (shift, reverse, swap) usually jumps out within seconds.</div>"
+    },
+    {
+      "title": "Type 3: Number Coding & Position Logic",
+      "body": "<p>Letters may be replaced by their position numbers, or by sums/products of positions.</p><div class='worked-example'><div class='we-q'>If A=1, B=2, …, then what is the value of the word CAB?</div><div class='we-sol'>C=3, A=1, B=2. Sum = 3+1+2 = 6.</div></div><div class='worked-example'><div class='we-q'>If CAT is coded as 24, code DOG.</div><div class='we-sol'>C=3, A=1, T=20. Sum = 24. So DOG = 4+15+7 = 26.</div></div><h3>Conditional / sentence coding</h3><p>Sometimes you get coded sentences and must crack multiple words by elimination:</p><div class='worked-example'><div class='we-q'>&quot;lep na kut&quot; = bring fresh water, &quot;na tir&quot; = fresh fruit. What is the code for &quot;fresh&quot;?</div><div class='we-sol'>&quot;Fresh&quot; appears in both sentences. The common code word is &quot;na&quot;. So fresh = na.</div></div><div class='callout warn'><strong>Negative-marking reminder</strong>Coding-decoding is one of the highest-accuracy topics in Tier-I if you stay calm. Always re-check letter positions before locking an answer — one off-by-one costs 0.5 marks.</div>"
+    }
+  ],
+  "practice": [
+    {
+      "id": 1,
+      "question": "If DAY is coded as 4-1-25, NIGHT is coded as:",
+      "options": [
+        "14-9-7-8-20",
+        "13-8-6-7-19",
+        "14-9-7-8-19",
+        "14-8-6-7-20"
+      ],
+      "answer": 0,
+      "explanation": "Position coding: N=14, I=9, G=7, H=8, T=20.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 2,
+      "question": "If SKY is coded as VNB, how is BOY coded?",
+      "options": [
+        "FSC",
+        "GTD",
+        "CPZ",
+        "ERB"
+      ],
+      "answer": 3,
+      "explanation": "Rule: each letter shifted by +3. S(19) -> V(22). Applying to BOY: ERB.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 3,
+      "question": "If FAST is coded as EZRS, how is SLOW coded?",
+      "options": [
+        "TMPX",
+        "QJMU",
+        "RKNV",
+        "SLOW"
+      ],
+      "answer": 2,
+      "explanation": "Rule: each letter shifted 1 backward. FAST -> EZRS. SLOW -> RKNV.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 4,
+      "question": "If STAR is coded as RATS, how is MOON coded?",
+      "options": [
+        "QSSR",
+        "PRRQ",
+        "RTTS",
+        "NOOM"
+      ],
+      "answer": 3,
+      "explanation": "Rule: reverse the word. STAR -> RATS. MOON -> NOOM.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 5,
+      "question": "If CAT is coded as XZG, how is DOG coded?",
+      "options": [
+        "EPH",
+        "GRJ",
+        "FQI",
+        "WLT"
+      ],
+      "answer": 3,
+      "explanation": "Rule: opposite letters (each pair sums to 27). CAT -> XZG. DOG -> WLT.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 6,
+      "question": "If ICE is coded as LFH, how is FUN coded?",
+      "options": [
+        "GVO",
+        "HWP",
+        "IXQ",
+        "LAT"
+      ],
+      "answer": 2,
+      "explanation": "Rule: each letter shifted by +3. I(9) -> L(12). Applying to FUN: IXQ.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 7,
+      "question": "If 'lep na kut' = 'bring fresh water' and 'na tir' = 'fresh fruit', which word means 'fresh'?",
+      "options": [
+        "lep",
+        "na",
+        "kut",
+        "tir"
+      ],
+      "answer": 1,
+      "explanation": "'Fresh' is common to both meanings; the common code word is 'na'.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 8,
+      "question": "If BIG is coded as YRT, how is OLD coded?",
+      "options": [
+        "SPH",
+        "ROG",
+        "QNF",
+        "LOW"
+      ],
+      "answer": 3,
+      "explanation": "Rule: opposite letters (each pair sums to 27). BIG -> YRT. OLD -> LOW.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 9,
+      "question": "If WAR is coded as BFW, how is TOP coded?",
+      "options": [
+        "VQR",
+        "YTU",
+        "BWX",
+        "WRS"
+      ],
+      "answer": 1,
+      "explanation": "Rule: each letter shifted by +5. W(23) -> B(2). Applying to TOP: YTU.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 10,
+      "question": "If RUN is coded as SVO, how is JOG coded?",
+      "options": [
+        "KPH",
+        "NSK",
+        "HME",
+        "MRJ"
+      ],
+      "answer": 0,
+      "explanation": "Rule: each letter shifted by +1. R(18) -> S(19). Applying to JOG: KPH.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 11,
+      "question": "If CAT is coded as FDW, how is DOG coded?",
+      "options": [
+        "HSK",
+        "JUM",
+        "EPH",
+        "GRJ"
+      ],
+      "answer": 3,
+      "explanation": "Rule: each letter shifted by +3. C(3) -> F(6). Applying to DOG: GRJ.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 12,
+      "question": "If DOG is coded as ITL, how is CAT coded?",
+      "options": [
+        "IGZ",
+        "JHA",
+        "ECV",
+        "HFY"
+      ],
+      "answer": 3,
+      "explanation": "Rule: each letter shifted by +5. D(4) -> I(9). Applying to CAT: HFY.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 13,
+      "question": "If GAS is coded as LFX, how is OIL coded?",
+      "options": [
+        "SMP",
+        "TNQ",
+        "UOR",
+        "WQT"
+      ],
+      "answer": 1,
+      "explanation": "Rule: each letter shifted by +5. G(7) -> L(12). Applying to OIL: TNQ.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 14,
+      "question": "If TAP is coded as RYN, how is SLEEP coded?",
+      "options": [
+        "QJCCN",
+        "PIBBM",
+        "SLEEP",
+        "RKDDO"
+      ],
+      "answer": 0,
+      "explanation": "Rule: each letter shifted 2 backward. TAP -> RYN. SLEEP -> QJCCN.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 15,
+      "question": "If letters are coded by position and CAT = 24, what is DOG?",
+      "options": [
+        "26",
+        "25",
+        "27",
+        "28"
+      ],
+      "answer": 0,
+      "explanation": "C=3,A=1,T=20 -> 24. D=4,O=15,G=7 -> 26.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 16,
+      "question": "If MAP is coded as NBQ, how is KEY coded?",
+      "options": [
+        "MGA",
+        "JDX",
+        "LFZ",
+        "NHB"
+      ],
+      "answer": 2,
+      "explanation": "Rule: each letter shifted by +1. M(13) -> N(14). Applying to KEY: LFZ.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 17,
+      "question": "If 'ni pu' = 'come here' and 'ni ka' = 'come back', what does 'pu' mean?",
+      "options": [
+        "come",
+        "here",
+        "back",
+        "go"
+      ],
+      "answer": 1,
+      "explanation": "'ni' is common (=come). So 'pu' = 'here'.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 18,
+      "question": "If MAN is coded as THU, each letter is shifted by:",
+      "options": [
+        "+8",
+        "+7",
+        "+9",
+        "+6"
+      ],
+      "answer": 1,
+      "explanation": "M(13) -> T(20) is a shift of +7.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 19,
+      "question": "If COOL is coded as BNNK, how is WIND coded?",
+      "options": [
+        "VHMC",
+        "TFKA",
+        "UGLB",
+        "XJOE"
+      ],
+      "answer": 0,
+      "explanation": "Rule: each letter shifted 1 backward. COOL -> BNNK. WIND -> VHMC.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 20,
+      "question": "If BOOK is coded as GTTP, how is PEN coded?",
+      "options": [
+        "WLU",
+        "VKT",
+        "UJS",
+        "RGP"
+      ],
+      "answer": 2,
+      "explanation": "Rule: each letter shifted by +5. B(2) -> G(7). Applying to PEN: UJS.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 21,
+      "question": "If RED is coded as VIH, how is SUN coded?",
+      "options": [
+        "WYR",
+        "XZS",
+        "YAT",
+        "ZBU"
+      ],
+      "answer": 0,
+      "explanation": "Rule: each letter shifted by +4. R(18) -> V(22). Applying to SUN: WYR.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 22,
+      "question": "If TEA is coded as UFB, how is RAT coded?",
+      "options": [
+        "PYR",
+        "UDW",
+        "TCV",
+        "SBU"
+      ],
+      "answer": 3,
+      "explanation": "Rule: each letter shifted by +1. T(20) -> U(21). Applying to RAT: SBU.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 23,
+      "question": "If PART is coded as TRAP, how is STOP coded?",
+      "options": [
+        "XYTU",
+        "TUPQ",
+        "UVQR",
+        "POTS"
+      ],
+      "answer": 3,
+      "explanation": "Rule: reverse the word. PART -> TRAP. STOP -> POTS.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 24,
+      "question": "If A=1, B=2, ... Z=26, the word CAB has the value:",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "C=3, A=1, B=2. Sum = 3+1+2 = 6.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 25,
+      "question": "If BOOK is coded as KOOB, how is GOAT coded?",
+      "options": [
+        "IQCV",
+        "HPBU",
+        "TAOG",
+        "KSEX"
+      ],
+      "answer": 2,
+      "explanation": "Rule: reverse the word. BOOK -> KOOB. GOAT -> TAOG.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 26,
+      "question": "If FLOW is coded as WOLF, how is WOLF coded?",
+      "options": [
+        "YQNH",
+        "XPMG",
+        "FLOW",
+        "BTQK"
+      ],
+      "answer": 2,
+      "explanation": "Rule: reverse the word. FLOW -> WOLF. WOLF -> FLOW.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 27,
+      "question": "If EAT is coded as HDW, how is PIE coded?",
+      "options": [
+        "TMI",
+        "QJF",
+        "RKG",
+        "SLH"
+      ],
+      "answer": 3,
+      "explanation": "Rule: each letter shifted by +3. E(5) -> H(8). Applying to PIE: SLH.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 28,
+      "question": "If BED is coded as FIH, how is MUG coded?",
+      "options": [
+        "QYK",
+        "NVH",
+        "TBN",
+        "SAM"
+      ],
+      "answer": 0,
+      "explanation": "Rule: each letter shifted by +4. B(2) -> F(6). Applying to MUG: QYK.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 29,
+      "question": "If HOT is coded as FMR, how is WARM coded?",
+      "options": [
+        "TXOJ",
+        "VZQL",
+        "UYPK",
+        "WARM"
+      ],
+      "answer": 2,
+      "explanation": "Rule: each letter shifted 2 backward. HOT -> FMR. WARM -> UYPK.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 30,
+      "question": "If RED is coded as IVW, how is TOP coded?",
+      "options": [
+        "VQR",
+        "WRS",
+        "GLK",
+        "XST"
+      ],
+      "answer": 2,
+      "explanation": "Rule: opposite letters (each pair sums to 27). RED -> IVW. TOP -> GLK.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 31,
+      "question": "If HAT is coded as MFY, how is CAP coded?",
+      "options": [
+        "ECR",
+        "JHW",
+        "KIX",
+        "HFU"
+      ],
+      "answer": 3,
+      "explanation": "Rule: each letter shifted by +5. H(8) -> M(13). Applying to CAP: HFU.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 32,
+      "question": "If RED is coded as VIH, each letter is shifted by:",
+      "options": [
+        "+4",
+        "+5",
+        "+6",
+        "+3"
+      ],
+      "answer": 0,
+      "explanation": "R(18) -> V(22) is a shift of +4.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 33,
+      "question": "If RACE = 18-1-3-5 and GAME = 7-1-13-5, then FACE = ?",
+      "options": [
+        "6-1-3-5",
+        "6-1-4-5",
+        "5-1-3-5",
+        "6-2-3-5"
+      ],
+      "answer": 0,
+      "explanation": "F=6, A=1, C=3, E=5.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 34,
+      "question": "If TOP is coded as XST, each letter is shifted by:",
+      "options": [
+        "+3",
+        "+5",
+        "+4",
+        "+6"
+      ],
+      "answer": 2,
+      "explanation": "T(20) -> X(24) is a shift of +4.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 35,
+      "question": "If SUN is coded as HFM, how is SKY coded?",
+      "options": [
+        "UMA",
+        "VNB",
+        "TLZ",
+        "HPB"
+      ],
+      "answer": 3,
+      "explanation": "Rule: opposite letters (each pair sums to 27). SUN -> HFM. SKY -> HPB.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 36,
+      "question": "If SUN is coded as VXQ, how is MOON coded?",
+      "options": [
+        "QSSR",
+        "RTTS",
+        "PRRQ",
+        "NPPO"
+      ],
+      "answer": 2,
+      "explanation": "Rule: each letter shifted by +3. S(19) -> V(22). Applying to MOON: PRRQ.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    },
+    {
+      "id": 37,
+      "question": "If COLD is coded as DLOC, how is WARM coded?",
+      "options": [
+        "MRAW",
+        "XBSN",
+        "AEVQ",
+        "BFWR"
+      ],
+      "answer": 0,
+      "explanation": "Rule: reverse the word. COLD -> DLOC. WARM -> MRAW.",
+      "source": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning"
+    }
+  ]
+}

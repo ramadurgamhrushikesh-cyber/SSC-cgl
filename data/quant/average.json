@@ -1,0 +1,497 @@
+{
+  "id": "average",
+  "section": "quant",
+  "name": "Average",
+  "difficulty": "easy",
+  "tier1_weight": "high",
+  "timeline_days": 2,
+  "est_hours": 3,
+  "pages": [
+    {
+      "title": "Concept & Formula",
+      "body": "<p>The <strong>average</strong> (or <em>arithmetic mean</em>) of a set of quantities is a single value that represents the whole set. If you had to express the entire group by one number, the average is that number.</p><div class='eqn'>$\\text{Average} = \\dfrac{\\text{Sum of observations}}{\\text{Number of observations}}$</div><p>So the total sum can always be recovered:</p><div class='eqn'>$\\text{Sum} = \\text{Average} \\times \\text{Number of observations}$</div><div class='figure fig-svg'><svg viewBox='0 0 320 120' width='320' height='120'><text x='160' y='30' text-anchor='middle' class='label'>Average = Balance point</text><line x1='20' y1='70' x2='300' y2='70' class='axis'/><g class='fill-accent'><circle cx='60' cy='70' r='7'/><circle cx='100' cy='70' r='7'/><circle cx='140' cy='70' r='7'/><circle cx='200' cy='70' r='7'/><circle cx='260' cy='70' r='7'/></g><polygon points='155,70 165,70 160,50' class='fill-accent'/><text x='60' y='95' text-anchor='middle' class='label-sm'>4</text><text x='100' y='95' text-anchor='middle' class='label-sm'>8</text><text x='140' y='95' text-anchor='middle' class='label-sm'>6</text><text x='200' y='95' text-anchor='middle' class='label-sm'>10</text><text x='260' y='95' text-anchor='middle' class='label-sm'>7</text><text x='160' y='45' text-anchor='middle' class='label-sm'>avg = 7</text></svg><div class='fig-caption'>Five values balanced around their mean.</div></div><div class='callout'><strong>Key idea</strong>Average is a <em>balance point</em>: the sum of deviations above the average always equals the sum of deviations below it.</div>"
+    },
+    {
+      "title": "Average Speed (Equal Distances)",
+      "body": "<p>When a person travels <strong>equal distances</strong> at two different speeds $x$ km/h and $y$ km/h, the average speed for the whole journey is <em>not</em> $\\frac{x+y}{2}$. It is the <strong>harmonic mean</strong>:</p><div class='eqn'>$\\text{Average speed} = \\dfrac{2xy}{x+y} \\text{ km/h}$</div><div class='callout warn'><strong>Common mistake</strong>Using $\\frac{x+y}{2}$ (the arithmetic mean) for equal distances gives the wrong answer. Use $\\frac{2xy}{x+y}$ instead.<br><br>Note: $\\frac{x+y}{2}$ is correct only for <em>equal times</em>, not equal distances.</div><div class='worked-example'><div class='we-q'>A man covers a certain distance at 60 km/h and returns over the same distance at 40 km/h. Find the average speed for the whole journey.</div><div class='we-sol'>Here distances are equal, so use $\\frac{2xy}{x+y} = \\frac{2\\times60\\times40}{60+40} = \\frac{4800}{100} = 48$ km/h.</div></div>"
+    },
+    {
+      "title": "Worked Examples & Short Tricks",
+      "body": "<p>Three classic question types appear again and again in SSC CGL. Master these patterns.</p><h3>1. Find the average of a list</h3><div class='worked-example'><div class='we-q'>Find the average of 354, 281, 623, 518, 447, 702, 876.</div><div class='we-sol'>Sum $= 354+281+623+518+447+702+876 = 3801$. Count $=7$.<br>Average $= \\frac{3801}{7} = 543$.</div></div><h3>2. A new member changes the average</h3><div class='worked-example'><div class='we-q'>The average weight of 8 persons increases by 2.5 kg when a new person replaces one of them weighing 65 kg. What is the weight of the new person?</div><div class='we-sol'>Total increase $= 8 \\times 2.5 = 20$ kg. This increase is caused by the replacement, so new person's weight $= 65 + 20 = 85$ kg.</div></div><div class='callout tip'><strong>Trick</strong>If the average of <em>n</em> items rises by <em>d</em> when one item is replaced, the new item = old item $+ n \\times d$.</div><h3>3. Finding a missing number</h3><div class='worked-example'><div class='we-q'>The average of 5 numbers is 18. If one number is excluded, the average becomes 16. Find the excluded number.</div><div class='we-sol'>Sum of 5 numbers $= 5 \\times 18 = 90$.<br>Sum of remaining 4 numbers $= 4 \\times 16 = 64$.<br>Excluded number $= 90 - 64 = 26$.</div></div><h3>4. Average age with replacement</h3><div class='worked-example'><div class='we-q'>The average age of a committee of 10 members increases by 2 years when two members aged 32 and 38 are replaced by two new members. Find the average age of the two new members.</div><div class='we-sol'>Total increase $= 10 \\times 2 = 20$ years.<br>Total age of new pair $= (32 + 38) + 20 = 90$ years.<br>Average age of new members $= \\frac{90}{2} = 45$ years.</div></div>"
+    },
+    {
+      "title": "Quick Revision & Formula Sheet",
+      "body": "<h3>Formula sheet</h3><ul><li>Average $= \\dfrac{\\text{Sum}}{\\text{Count}}$</li><li>Sum $=$ Average $\\times$ Count</li><li>Change in total $= n \\times (\\text{change in average})$</li><li>Average speed (equal distances) $= \\dfrac{2xy}{x+y}$</li><li>Average speed (equal times) $= \\dfrac{x+y}{2}$</li><li>Average of first $n$ natural numbers $= \\dfrac{n+1}{2}$</li><li>Average of first $n$ even numbers $= n+1$</li><li>Average of first $n$ odd numbers $= n$</li><li>Average of squares of first $n$ natural numbers $= \\dfrac{(n+1)(2n+1)}{6}$</li></ul><div class='callout tip'><strong>Time saver</strong>In SSC CGL, watch for the words &quot;replaced&quot;, &quot;leaves/joins&quot;, &quot;new average&quot;. These signal a <em>total-change</em> problem: multiply the count by the average change.</div><div class='callout warn'><strong>Negative marking reminder</strong>In the real Tier-I, every wrong answer costs 0.50 marks. If you are unsure between two options in an averages question, the arithmetic is usually quick enough to verify — attempt it.</div>"
+    }
+  ],
+  "practice": [
+    {
+      "id": 1,
+      "question": "Find the average of the numbers: 354, 281, 623, 518, 447, 702, 876.",
+      "options": [
+        "520",
+        "543",
+        "560",
+        "590"
+      ],
+      "answer": 1,
+      "explanation": "Sum = 354+281+623+518+447+702+876 = 3801. Average = 3801 ÷ 7 = 543.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 2,
+      "question": "The body weight of six boys is recorded as 54 kg, 64 kg, 75 kg, 67 kg, 45 kg and 91 kg. What is the average body weight?",
+      "options": [
+        "63 kg",
+        "66 kg",
+        "68 kg",
+        "70 kg"
+      ],
+      "answer": 1,
+      "explanation": "Sum = 54+64+75+67+45+91 = 396 kg. Average = 396 ÷ 6 = 66 kg.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 3,
+      "question": "Find the average of the first 5 multiples of 3.",
+      "options": [
+        "9",
+        "12",
+        "15",
+        "18"
+      ],
+      "answer": 0,
+      "explanation": "First 5 multiples of 3 are 3, 6, 9, 12, 15. Sum = 45. Average = 45 ÷ 5 = 9.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 4,
+      "question": "The average of 11 results is 50. If the average of the first six results is 49 and that of the last six is 52, find the sixth result.",
+      "options": [
+        "48",
+        "52",
+        "56",
+        "64"
+      ],
+      "answer": 2,
+      "explanation": "Sum of all 11 = 11×50 = 550. Sum of first six = 6×49 = 294; sum of last six = 6×52 = 312. The 6th result is counted in both: 294+312−550 = 56.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 5,
+      "question": "The average weight of 8 persons increases by 2.5 kg when a new person comes in place of one of them weighing 65 kg. The weight of the new person is:",
+      "options": [
+        "76 kg",
+        "76.5 kg",
+        "85 kg",
+        "90 kg"
+      ],
+      "answer": 2,
+      "explanation": "Total increase = 8 × 2.5 = 20 kg. New person = 65 + 20 = 85 kg.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 6,
+      "question": "The average of ten numbers is 9. If each number is increased by 10, then the new average is:",
+      "options": [
+        "9",
+        "10",
+        "19",
+        "90"
+      ],
+      "answer": 2,
+      "explanation": "If every number increases by 10, the average also increases by 10. New average = 9 + 10 = 19.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 7,
+      "question": "The average of the first nine prime numbers is:",
+      "options": [
+        "9",
+        "11",
+        "100/9 (approx 11.11)",
+        "12"
+      ],
+      "answer": 2,
+      "explanation": "First 9 primes: 2, 3, 5, 7, 11, 13, 17, 19, 23. Sum = 100. Average = 100/9 = 11.11 approx.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 8,
+      "question": "A man covers a certain distance at 60 km/h and returns over the same distance at 40 km/h. His average speed for the whole journey is:",
+      "options": [
+        "48 km/h",
+        "50 km/h",
+        "50.5 km/h",
+        "52 km/h"
+      ],
+      "answer": 0,
+      "explanation": "Equal distances ⇒ average speed = 2xy/(x+y) = (2×60×40)/(60+40) = 4800/100 = 48 km/h.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 9,
+      "question": "The average of 5 numbers is 18. If one number is excluded, the average becomes 16. The excluded number is:",
+      "options": [
+        "24",
+        "25",
+        "26",
+        "28"
+      ],
+      "answer": 2,
+      "explanation": "Sum of 5 = 5×18 = 90. Sum of 4 = 4×16 = 64. Excluded number = 90−64 = 26.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 10,
+      "question": "The average age of 30 students is 9 years. If the teacher's age is included, the average age becomes 10 years. The teacher's age is:",
+      "options": [
+        "28 years",
+        "30 years",
+        "40 years",
+        "41 years"
+      ],
+      "answer": 2,
+      "explanation": "Sum of 30 students = 30×9 = 270. Sum of 31 = 31×10 = 310. Teacher's age = 310−270 = 40 years.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 11,
+      "question": "The average of five consecutive odd numbers is 61. What is the difference between the highest and lowest numbers?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "answer": 3,
+      "explanation": "Five consecutive odd numbers centred on 61: 57, 59, 61, 63, 65. Highest−Lowest = 65−57 = 8.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 12,
+      "question": "The average of 7 consecutive numbers is 20. The largest of these numbers is:",
+      "options": [
+        "21",
+        "22",
+        "23",
+        "24"
+      ],
+      "answer": 2,
+      "explanation": "Middle (4th) number = 20. Numbers: 17,18,19,20,21,22,23. Largest = 23.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 13,
+      "question": "The average salary of all the workers in a workshop is ₹8000. The average salary of 7 technicians is ₹12000 and the average salary of the rest is ₹6000. The total number of workers in the workshop is:",
+      "options": [
+        "21",
+        "22",
+        "23",
+        "24"
+      ],
+      "answer": 0,
+      "explanation": "Let total workers be n. 8000n = 7×12000 + (n−7)×6000 ⇒ 8000n = 84000 + 6000n − 42000 ⇒ 2000n = 42000 ⇒ n = 21.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 14,
+      "question": "The average of five numbers is 27. If one number is excluded, the average becomes 25. The excluded number is:",
+      "options": [
+        "25",
+        "27",
+        "30",
+        "35"
+      ],
+      "answer": 3,
+      "explanation": "Sum of 5 = 135, sum of 4 = 100. Excluded = 135−100 = 35.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 15,
+      "question": "Of the four numbers, the first is twice the second, the second is one-third of the third and the third is 5 times the fourth. The average of the numbers is 24.75. The largest of these numbers is:",
+      "options": [
+        "9",
+        "15",
+        "45",
+        "55"
+      ],
+      "answer": 2,
+      "explanation": "Let 4th = x. Then 3rd = 5x, 2nd = 5x/3, 1st = 10x/3. Sum = 24.75×4 = 99 = x+5x+5x/3+10x/3 = 6x+5x = 11x ⇒ x=9. Largest = 5x = 45.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 16,
+      "question": "A car owner buys petrol at ₹7.50, ₹8.00 and ₹8.50 per litre for three successive years. If he spends ₹4000 each year, the average cost per litre is (approx):",
+      "options": [
+        "₹7.98",
+        "₹8.00",
+        "₹8.16",
+        "₹8.50"
+      ],
+      "answer": 0,
+      "explanation": "Total spent = ₹12000. Total quantity = 4000/7.5 + 4000/8 + 4000/8.5 ≈ 533.3+500+470.6 = 1503.9 litres. Average = 12000/1503.9 ≈ ₹7.98 (harmonic mean type).",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 17,
+      "question": "The average of five numbers is 28. If one number is excluded, the average becomes 26. The excluded number is:",
+      "options": [
+        "28",
+        "30",
+        "34",
+        "36"
+      ],
+      "answer": 3,
+      "explanation": "Sum of 5 numbers = 5 x 28 = 140. Sum of remaining 4 = 4 x 26 = 104. Excluded number = 140 - 104 = 36.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 18,
+      "question": "The average of six numbers is 3.95. The average of two of them is 3.4, while the average of the other two is 3.85. The average of the remaining two numbers is:",
+      "options": [
+        "4.5",
+        "4.6",
+        "4.7",
+        "4.8"
+      ],
+      "answer": 1,
+      "explanation": "Sum of 6 = 23.7. Sum of first 2 = 6.8, next 2 = 7.7. Sum of last 2 = 23.7−6.8−7.7 = 9.2. Average = 9.2/2 = 4.6.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 19,
+      "question": "The average weight of a class of 24 students is 35 kg. If the weight of the teacher be included, the average rises by 500 g. The weight of the teacher is:",
+      "options": [
+        "36 kg",
+        "42 kg",
+        "47 kg",
+        "48 kg"
+      ],
+      "answer": 2,
+      "explanation": "Total rises by 0.5 kg for 25 people (24 students + teacher): increase = 25 x 0.5 = 12.5 kg. Teacher = 35 + 12.5 = 47.5 kg; closest option is 47 kg.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 20,
+      "question": "The average monthly income of P and Q is ₹5050. The average monthly income of Q and R is ₹6250 and that of P and R is ₹5200. The monthly income of P is:",
+      "options": [
+        "3500",
+        "4000",
+        "4050",
+        "5000"
+      ],
+      "answer": 1,
+      "explanation": "P+Q=10100, Q+R=12500, P+R=10400. Adding all: 2(P+Q+R)=33000 ⇒ P+Q+R=16500. P = 16500−12500 = 4000.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 21,
+      "question": "Three years ago, the average age of A and B was 18 years. With C joining them, the average age becomes 22 years. How old is C now?",
+      "options": [
+        "24 years",
+        "27 years",
+        "28 years",
+        "30 years"
+      ],
+      "answer": 0,
+      "explanation": "Sum of A+B 3 yrs ago = 36. Today A+B = 36+6 = 42. With C: 3×22 = 66, so C = 66−42 = 24.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 22,
+      "question": "A library has an average of 510 visitors on Sundays and 240 on other days. The average number of visitors per day in a month of 30 days beginning with a Sunday is:",
+      "options": [
+        "250",
+        "276",
+        "280",
+        "285"
+      ],
+      "answer": 3,
+      "explanation": "30 days from Sunday = 5 Sundays + 25 other days. Total = 5×510 + 25×240 = 2550+6000 = 8550. Average = 8550/30 = 285.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 23,
+      "question": "The average weight of 8 boys increases by 1.5 kg when two boys who weigh 30 kg and 32 kg are replaced by two new boys. The average weight of the two new boys is:",
+      "options": [
+        "37 kg",
+        "38 kg",
+        "40 kg",
+        "42 kg"
+      ],
+      "answer": 0,
+      "explanation": "Total increase = 8×1.5 = 12 kg. Total weight of new pair = 30+32+12 = 74 kg. Average = 74/2 = 37 kg.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 24,
+      "question": "The average of 50 numbers is 30. If two numbers, 35 and 40, are discarded, the average of the remaining numbers is:",
+      "options": [
+        "28.5",
+        "29.6",
+        "29.8",
+        "29.9"
+      ],
+      "answer": 3,
+      "explanation": "Sum of 50 = 1500. Remove 35+40 = 75. Sum of 48 = 1425. Average = 1425/48 = 29.6875 ≈ 29.9.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 25,
+      "question": "A batsman makes a score of 87 runs in the 17th inning and thus increases his average by 3. Find his average after 17 innings.",
+      "options": [
+        "36",
+        "39",
+        "42",
+        "45"
+      ],
+      "answer": 1,
+      "explanation": "Let average after 16 be x. After 17 it is x+3. So 16x+87 = 17(x+3) ⇒ 16x+87 = 17x+51 ⇒ x = 36. New average = 36+3 = 39.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 26,
+      "question": "The average weight of A, B and C is 45 kg. If the average weight of A and B be 40 kg and that of B and C be 43 kg, the weight of B is:",
+      "options": [
+        "17 kg",
+        "20 kg",
+        "26 kg",
+        "31 kg"
+      ],
+      "answer": 3,
+      "explanation": "A+B+C = 135; A+B = 80; B+C = 86. So C = 135−80 = 55; A = 135−86 = 49; B = 80−49 = 31 kg.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 27,
+      "question": "The average age of husband, wife and their child 3 years ago was 27 years and that of wife and child 5 years ago was 20 years. The present age of the husband is:",
+      "options": [
+        "35 years",
+        "40 years",
+        "50 years",
+        "60 years"
+      ],
+      "answer": 1,
+      "explanation": "Sum of H+W+C three years ago = 3 x 27 = 81; their present sum = 81 + 9 = 90. Sum of W+C five years ago = 2 x 20 = 40; their present sum = 40 + 10 = 50. Husband = 90 - 50 = 40 years.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 28,
+      "question": "In an examination, a pupil's average marks were 63 per paper. If he had obtained 20 more marks for his Geography paper and 2 more marks for his History paper, his average per paper would have been 65. The number of papers in the examination is:",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "answer": 3,
+      "explanation": "Let number of papers = n. Total extra marks = 22. Increase in average = 65−63 = 2. So n×2 = 22 ⇒ n = 11.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 29,
+      "question": "The arithmetic mean of the scores of a group of students in a test was 52. The brightest 20% secured an average of 80 and the dullest 25% secured an average of 31. The average score of the remaining 55% is:",
+      "options": [
+        "45",
+        "50",
+        "51.4 approx.",
+        "54.6 approx."
+      ],
+      "answer": 2,
+      "explanation": "52 = 0.20x80 + 0.25x31 + 0.55xX  => 52 = 16 + 7.75 + 0.55X => 0.55X = 28.25 => X = 51.36 approx 51.4.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 30,
+      "question": "The mean of 50 observations was 36. It was found later that an observation 48 was wrongly taken as 23. The corrected new mean is:",
+      "options": [
+        "35.2",
+        "36.5",
+        "37.0",
+        "37.5"
+      ],
+      "answer": 1,
+      "explanation": "Error = 48−23 = 25 added to total. New sum = 50×36 + 25 = 1825. New mean = 1825/50 = 36.5.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 31,
+      "question": "The average of 20 numbers is zero. Of them, at the most, how many may be greater than zero?",
+      "options": [
+        "0",
+        "1",
+        "10",
+        "19"
+      ],
+      "answer": 3,
+      "explanation": "For average to be 0, the sum must be 0. At most 19 can be positive with the 20th being a large negative value to balance the sum.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 32,
+      "question": "The average of 9 numbers is 50. The average of the first 5 numbers is 54 and that of the last 5 numbers is 52. The 5th number is:",
+      "options": [
+        "24",
+        "48",
+        "52",
+        "80"
+      ],
+      "answer": 3,
+      "explanation": "Sum of all 9 = 9 x 50 = 450. Sum of first 5 = 5 x 54 = 270; sum of last 5 = 5 x 52 = 260. The first 5 and last 5 together cover all 9 positions but count the 5th number twice. So 270 + 260 = 450 + (5th number) => 5th number = 530 - 450 = 80.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 33,
+      "question": "The average temperature for Monday, Tuesday and Wednesday was 36°C. The average for Tuesday, Wednesday and Thursday was 38°C. If Thursday's temperature was 39°C, Monday's temperature was:",
+      "options": [
+        "31°C",
+        "33°C",
+        "34°C",
+        "36°C"
+      ],
+      "answer": 1,
+      "explanation": "Mon+Tue+Wed = 108. Tue+Wed+Thu = 114. So Thu−Mon = 6 ⇒ Mon = 39−6 = 33°C.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 34,
+      "question": "A pupil's marks were wrongly entered as 83 instead of 63. Due to that the average marks for the class got increased by half (½). The number of pupils in the class is:",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "40"
+      ],
+      "answer": 3,
+      "explanation": "Difference = 83−63 = 20 marks caused average rise of 0.5. So n×0.5 = 20 ⇒ n = 40.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 35,
+      "question": "The average age of 15 students of a class is 15 years. Out of these, the average age of 5 students is 14 years and that of the other 9 students is 16 years. The age of the 15th student is:",
+      "options": [
+        "11 years",
+        "14 years",
+        "15 years",
+        "16 years"
+      ],
+      "answer": 0,
+      "explanation": "Sum of 15 = 225. Sum of 5 = 70, sum of 9 = 144. Total of 14 = 214. 15th student = 225−214 = 11 years.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    },
+    {
+      "id": 36,
+      "question": "The average of three numbers is 18. The first is as much more than the third as the second is less than the third. The second number is one-third of the first. The third number is:",
+      "options": [
+        "12",
+        "15",
+        "18",
+        "24"
+      ],
+      "answer": 2,
+      "explanation": "Let third = x. First = x+a, second = x−a. Given second = first/3 ⇒ 3(x−a) = x+a ⇒ 2x = 4a ⇒ a = x/2. Sum = (x+x/2)+(x−x/2)+x = 3x = 3×18 = 54 ⇒ x = 18.",
+      "source": "R.S. Aggarwal, Quantitative Aptitude"
+    }
+  ]
+}

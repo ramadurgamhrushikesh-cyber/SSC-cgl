@@ -1,0 +1,428 @@
+{
+  "id": "mirror-images",
+  "section": "reasoning",
+  "name": "Mirror & Water Images (Non-Verbal)",
+  "difficulty": "easy",
+  "tier1_weight": "high",
+  "timeline_days": 2,
+  "est_hours": 3,
+  "pages": [
+    {
+      "title": "What are Mirror & Water Images?",
+      "body": "<p>A <strong>mirror image</strong> (plane mirror) shows an object as it would appear reflected in a vertical mirror: <strong>left and right are swapped</strong> (lateral inversion), while top and bottom stay the same. A <strong>water image</strong> is a reflection in a horizontal surface (like still water): <strong>top and bottom are swapped</strong>, while left and right stay the same.</p><div class='figure fig-svg'><svg viewBox='0 0 360 160' width='360' height='160'><text x='60' y='25' text-anchor='middle' class='label-sm'>Object</text><text x='180' y='25' text-anchor='middle' fill='var(--accent)' class='label-sm'>Mirror image</text><text x='300' y='25' text-anchor='middle' fill='var(--green)' class='label-sm'>Water image</text><line x1='120' y1='40' x2='120' y2='150' stroke='var(--text-dim)' stroke-dasharray='4 3'/><line x1='240' y1='40' x2='240' y2='150' stroke='var(--text-dim)' stroke-dasharray='4 3'/><polygon points='40,60 80,60 60,110' fill='var(--accent)'/><g transform='translate(240,0) scale(-1,1)'><polygon points='0,60 40,60 20,110' fill='var(--accent)'/></g><g transform='translate(240,120) scale(1,-1)'><polygon points='0,-60 40,-60 20,-10' fill='var(--accent)'/></g></svg><div class='fig-caption'>Mirror flips left-right; water flips top-bottom.</div></div><div class='callout tip'><strong>Mental trick</strong>For a mirror, imagine swapping every left/right feature. For water, flip the object upside down. Letters like <strong>A, H, I, M, O, T, U, V, W, X, Y</strong> look unchanged in a vertical mirror (vertically symmetric). Digits <strong>0, 8</strong> are symmetric.</div>"
+    },
+    {
+      "title": "Mirror Images of Letters & Numbers",
+      "body": "<p>Most letters change when mirrored. Practice by writing them reversed. Symmetric letters stay the same; asymmetric ones become their 'backward' form.</p><div class='figure fig-svg'><svg viewBox='0 0 320 110' width='320' height='110'><text x='40' y='40' text-anchor='middle' class='label-sm'>Original</text><text x='160' y='40' text-anchor='middle' fill='var(--accent)' class='label-sm'>Mirror</text><text x='270' y='40' text-anchor='middle' fill='var(--green)' class='label-sm'>Same?</text><text x='40' y='85' text-anchor='middle' font-family='Georgia,serif' font-size='30' font-weight='bold' fill='var(--text)'>B</text><g transform='translate(320,0) scale(-1,1)'><text x='160' y='85' text-anchor='middle' font-family='Georgia,serif' font-size='30' font-weight='bold' fill='var(--accent)'>B</text></g><text x='270' y='85' text-anchor='middle' fill='var(--red)' class='label'>No</text></svg><div class='fig-caption'>B is asymmetric — its mirror looks different.</div></div><div class='callout warn'><strong>Common trap</strong>In 'mirror image of a word' questions, each letter is mirrored individually and the letter order is reversed. Always check the options carefully — symmetric letters (A, H, I, M, O, T, U, V, W, X, Y) stay the same, asymmetric ones flip.</div>"
+    },
+    {
+      "title": "Water Images & Clock Mirrors",
+      "body": "<p>For water images, flip top and bottom. Letters horizontally symmetric about their middle (like <strong>B, C, D, E, H, I, K, O, X</strong>) look the same in water.</p><h3>Mirror clock trick</h3><p>If a clock shows a time in a mirror, the real time = <strong>11:60 − shown time</strong> (subtract hours and minutes separately, borrowing from the hour when minutes go negative).</p><div class='worked-example'><div class='we-q'>A clock in a mirror shows 4:10. What is the real time?</div><div class='we-sol'>11:60 − 4:10 = 7:50. Real time is 7:50.</div></div><div class='worked-example'><div class='we-q'>Real time is 3:00. What does the mirror show?</div><div class='we-sol'>11:60 − 3:00 = 8:60. Since 60 minutes = 1 hour, this is 9:00. Mirror shows 9:00.</div></div><div class='callout tip'><strong>Quick formula</strong>Mirror time + Real time = 11:60. Use this and you'll never go wrong on clock-mirror questions.</div>"
+    }
+  ],
+  "practice": [
+    {
+      "id": 1,
+      "question": "Which of the following letters of the English alphabet looks the SAME as its mirror image?",
+      "options": [
+        "B",
+        "P",
+        "A",
+        "F"
+      ],
+      "answer": 2,
+      "explanation": "A is vertically symmetric, so its mirror image is identical. B, P, F are asymmetric and change.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 2,
+      "question": "A clock seen in a mirror shows 7:20. The real time is:",
+      "options": [
+        "4:40",
+        "5:40",
+        "4:20",
+        "5:20"
+      ],
+      "answer": 0,
+      "explanation": "Real time = 11:60 − 7:20 = 4:40.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is the correct <strong>mirror image</strong> of the figure shown?<br><br><div class=\"nv-cell\" style=\"margin:0 auto;width:60px\"><div class=\"nv-key\">Given</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><polygon points=\"34,22 12,10 12,34\" fill=\"var(--accent)\"/></svg></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><polygon points=\"34,22 12,10 12,34\" fill=\"var(--accent)\"/></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">F</text></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><polygon points=\"34,22 12,10 12,34\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><polygon points=\"32,8 32,34 12,21\" fill=\"var(--accent)\"/></g></svg></div>"
+      ],
+      "answer": 2,
+      "explanation": "A vertical mirror swaps left and right while keeping top/bottom fixed. The correct mirror image is option C.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is the correct <strong>mirror image</strong> of the figure shown?<br><br><div class=\"nv-cell\" style=\"margin:0 auto;width:60px\"><div class=\"nv-key\">Given</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><rect x=\"6\" y=\"6\" width=\"32\" height=\"32\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"12\" r=\"5\" fill=\"var(--accent)\"/></svg></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">5</text></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><rect x=\"6\" y=\"6\" width=\"32\" height=\"32\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"12\" r=\"5\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><rect x=\"6\" y=\"6\" width=\"32\" height=\"32\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"12\" r=\"5\" fill=\"var(--accent)\"/></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">F</text></g></svg></div>"
+      ],
+      "answer": 1,
+      "explanation": "A vertical mirror swaps left and right while keeping top/bottom fixed. The correct mirror image is option B.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is the correct <strong>mirror image</strong> of the figure shown?<br><br><div class=\"nv-cell\" style=\"margin:0 auto;width:60px\"><div class=\"nv-key\">Given</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">7</text></svg></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">Z</text></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">7</text></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">5</text></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">7</text></svg></div>"
+      ],
+      "answer": 1,
+      "explanation": "A vertical mirror swaps left and right while keeping top/bottom fixed. The correct mirror image is option B.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is the correct <strong>mirror image</strong> of the figure shown?<br><br><div class=\"nv-cell\" style=\"margin:0 auto;width:60px\"><div class=\"nv-key\">Given</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><polyline points=\"14,8 14,34 32,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></svg></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><polyline points=\"14,8 14,34 32,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><line x1=\"14\" y1=\"6\" x2=\"14\" y2=\"38\" stroke=\"var(--accent)\" stroke-width=\"3\"/><polygon points=\"14,8 32,12 14,20\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">3</text></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><polyline points=\"14,8 14,34 32,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div>"
+      ],
+      "answer": 3,
+      "explanation": "A vertical mirror swaps left and right while keeping top/bottom fixed. The correct mirror image is option D.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 7,
+      "question": "A clock shows 3:00. In a mirror, the time appears to be:",
+      "options": [
+        "9:00",
+        "3:00",
+        "12:15",
+        "6:00"
+      ],
+      "answer": 0,
+      "explanation": "Mirror time = 11:60 − 3:00 = 8:60 = 9:00. The mirror shows 9:00.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is the correct <strong>mirror image</strong> of the figure shown?<br><br><div class=\"nv-cell\" style=\"margin:0 auto;width:60px\"><div class=\"nv-key\">Given</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">Z</text></svg></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">Z</text></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">3</text></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">F</text></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">Z</text></g></svg></div>"
+      ],
+      "answer": 3,
+      "explanation": "A vertical mirror swaps left and right while keeping top/bottom fixed. The correct mirror image is option D.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is the correct <strong>mirror image</strong> of the figure shown?<br><br><div class=\"nv-cell\" style=\"margin:0 auto;width:60px\"><div class=\"nv-key\">Given</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">G</text></svg></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">J</text></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">G</text></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">G</text></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">P</text></svg></div>"
+      ],
+      "answer": 1,
+      "explanation": "A vertical mirror swaps left and right while keeping top/bottom fixed. The correct mirror image is option B.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is the correct <strong>water image</strong> (reflection in water) of the figure shown?<br><br><div class=\"nv-cell\" style=\"margin:0 auto;width:60px\"><div class=\"nv-key\">Given</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">G</text></svg></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><rect x=\"6\" y=\"6\" width=\"32\" height=\"32\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"12\" r=\"5\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">G</text></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(0,44) scale(1,-1)\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">G</text></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(0,44) scale(1,-1)\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">F</text></g></svg></div>"
+      ],
+      "answer": 2,
+      "explanation": "A water image (horizontal surface) swaps top and bottom while keeping left/right fixed. The correct option is C.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 11,
+      "question": "Which of the following is the correct <strong>water image</strong> (reflection in water) of the figure shown?<br><br><div class=\"nv-cell\" style=\"margin:0 auto;width:60px\"><div class=\"nv-key\">Given</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">F</text></svg></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(0,44) scale(1,-1)\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">5</text></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">P</text></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">F</text></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(0,44) scale(1,-1)\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">F</text></g></svg></div>"
+      ],
+      "answer": 3,
+      "explanation": "A water image (horizontal surface) swaps top and bottom while keeping left/right fixed. The correct option is D.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is the correct <strong>mirror image</strong> of the figure shown?<br><br><div class=\"nv-cell\" style=\"margin:0 auto;width:60px\"><div class=\"nv-key\">Given</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><polygon points=\"32,8 32,34 12,21\" fill=\"var(--accent)\"/></svg></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><polygon points=\"32,8 32,34 12,21\" fill=\"var(--accent)\"/></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><line x1=\"14\" y1=\"6\" x2=\"14\" y2=\"38\" stroke=\"var(--accent)\" stroke-width=\"3\"/><polygon points=\"14,8 32,12 14,20\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">7</text></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><polygon points=\"32,8 32,34 12,21\" fill=\"var(--accent)\"/></g></svg></div>"
+      ],
+      "answer": 3,
+      "explanation": "A vertical mirror swaps left and right while keeping top/bottom fixed. The correct mirror image is option D.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 13,
+      "question": "Which of these is laterally symmetric (unchanged in a vertical mirror)?",
+      "options": [
+        "A chair facing right",
+        "A perfect circle",
+        "The letter R",
+        "A right hand"
+      ],
+      "answer": 1,
+      "explanation": "A perfect circle is symmetric in all directions, so it is unchanged in a mirror.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 14,
+      "question": "Which of the following is the correct <strong>water image</strong> (reflection in water) of the figure shown?<br><br><div class=\"nv-cell\" style=\"margin:0 auto;width:60px\"><div class=\"nv-key\">Given</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><polygon points=\"34,22 12,10 12,34\" fill=\"var(--accent)\"/></svg></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(0,44) scale(1,-1)\"><polyline points=\"14,8 14,34 32,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(0,44) scale(1,-1)\"><polygon points=\"34,22 12,10 12,34\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><polygon points=\"34,22 12,10 12,34\" fill=\"var(--accent)\"/></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">Z</text></g></svg></div>"
+      ],
+      "answer": 1,
+      "explanation": "A water image (horizontal surface) swaps top and bottom while keeping left/right fixed. The correct option is B.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 15,
+      "question": "The water image of an object is obtained by reflection in:",
+      "options": [
+        "A vertical mirror",
+        "A horizontal water surface",
+        "A convex mirror",
+        "A concave mirror"
+      ],
+      "answer": 1,
+      "explanation": "A water surface is horizontal, so it inverts top and bottom (not left-right).",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 16,
+      "question": "Which letter does NOT change in a water image?",
+      "options": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "answer": 1,
+      "explanation": "C is symmetric about its horizontal middle line, so its water image is unchanged. B, D, E are not horizontally symmetric and would change.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 17,
+      "question": "Which of the following is the correct <strong>mirror image</strong> of the figure shown?<br><br><div class=\"nv-cell\" style=\"margin:0 auto;width:60px\"><div class=\"nv-key\">Given</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">J</text></svg></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">J</text></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">J</text></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">7</text></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">P</text></svg></div>"
+      ],
+      "answer": 1,
+      "explanation": "A vertical mirror swaps left and right while keeping top/bottom fixed. The correct mirror image is option B.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 18,
+      "question": "Which of the following is the correct <strong>water image</strong> (reflection in water) of the figure shown?<br><br><div class=\"nv-cell\" style=\"margin:0 auto;width:60px\"><div class=\"nv-key\">Given</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">5</text></svg></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(0,44) scale(1,-1)\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">5</text></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(0,44) scale(1,-1)\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">J</text></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">F</text></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">5</text></svg></div>"
+      ],
+      "answer": 0,
+      "explanation": "A water image (horizontal surface) swaps top and bottom while keeping left/right fixed. The correct option is A.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 19,
+      "question": "Which of the following is the correct <strong>water image</strong> (reflection in water) of the figure shown?<br><br><div class=\"nv-cell\" style=\"margin:0 auto;width:60px\"><div class=\"nv-key\">Given</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">P</text></svg></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(0,44) scale(1,-1)\"><polyline points=\"14,8 14,34 32,34\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"4\" stroke-linecap=\"square\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">G</text></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">P</text></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(0,44) scale(1,-1)\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">P</text></g></svg></div>"
+      ],
+      "answer": 3,
+      "explanation": "A water image (horizontal surface) swaps top and bottom while keeping left/right fixed. The correct option is D.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 20,
+      "question": "Which of the following is the correct <strong>mirror image</strong> of the figure shown?<br><br><div class=\"nv-cell\" style=\"margin:0 auto;width:60px\"><div class=\"nv-key\">Given</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">3</text></svg></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">3</text></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">3</text></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><polygon points=\"34,22 12,10 12,34\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">J</text></svg></div>"
+      ],
+      "answer": 1,
+      "explanation": "A vertical mirror swaps left and right while keeping top/bottom fixed. The correct mirror image is option B.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 21,
+      "question": "Which of the following is the correct <strong>mirror image</strong> of the figure shown?<br><br><div class=\"nv-cell\" style=\"margin:0 auto;width:60px\"><div class=\"nv-key\">Given</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">P</text></svg></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">P</text></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">5</text></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">G</text></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">P</text></g></svg></div>"
+      ],
+      "answer": 3,
+      "explanation": "A vertical mirror swaps left and right while keeping top/bottom fixed. The correct mirror image is option D.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 22,
+      "question": "Which of the following is the correct <strong>water image</strong> (reflection in water) of the figure shown?<br><br><div class=\"nv-cell\" style=\"margin:0 auto;width:60px\"><div class=\"nv-key\">Given</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><polygon points=\"32,8 32,34 12,21\" fill=\"var(--accent)\"/></svg></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><polygon points=\"32,8 32,34 12,21\" fill=\"var(--accent)\"/></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(0,44) scale(1,-1)\"><polygon points=\"32,8 32,34 12,21\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(0,44) scale(1,-1)\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">P</text></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">5</text></g></svg></div>"
+      ],
+      "answer": 1,
+      "explanation": "A water image (horizontal surface) swaps top and bottom while keeping left/right fixed. The correct option is B.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 23,
+      "question": "Which of the following is the correct <strong>mirror image</strong> of the figure shown?<br><br><div class=\"nv-cell\" style=\"margin:0 auto;width:60px\"><div class=\"nv-key\">Given</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">F</text></svg></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">F</text></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><rect x=\"6\" y=\"6\" width=\"32\" height=\"32\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"12\" r=\"5\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">5</text></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">F</text></svg></div>"
+      ],
+      "answer": 0,
+      "explanation": "A vertical mirror swaps left and right while keeping top/bottom fixed. The correct mirror image is option A.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 24,
+      "question": "When you see an object in a plane (vertical) mirror, which of the following changes?",
+      "options": [
+        "Left and right are interchanged",
+        "Top and bottom are interchanged",
+        "The object becomes smaller",
+        "The object disappears"
+      ],
+      "answer": 0,
+      "explanation": "A vertical mirror produces lateral inversion: left and right are interchanged. Top/bottom stay the same.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 25,
+      "question": "Which digit looks the SAME in a mirror?",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "8"
+      ],
+      "answer": 3,
+      "explanation": "8 is symmetric about its vertical axis, so it looks the same in a mirror. 2, 3, 5 are not symmetric.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 26,
+      "question": "Which of the following is the correct <strong>mirror image</strong> of the figure shown?<br><br><div class=\"nv-cell\" style=\"margin:0 auto;width:60px\"><div class=\"nv-key\">Given</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><line x1=\"14\" y1=\"6\" x2=\"14\" y2=\"38\" stroke=\"var(--accent)\" stroke-width=\"3\"/><polygon points=\"14,8 32,12 14,20\" fill=\"var(--accent)\"/></svg></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><line x1=\"14\" y1=\"6\" x2=\"14\" y2=\"38\" stroke=\"var(--accent)\" stroke-width=\"3\"/><polygon points=\"14,8 32,12 14,20\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><polygon points=\"32,8 32,34 12,21\" fill=\"var(--accent)\"/></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><line x1=\"14\" y1=\"6\" x2=\"14\" y2=\"38\" stroke=\"var(--accent)\" stroke-width=\"3\"/><polygon points=\"14,8 32,12 14,20\" fill=\"var(--accent)\"/></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><rect x=\"6\" y=\"6\" width=\"32\" height=\"32\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"12\" r=\"5\" fill=\"var(--accent)\"/></svg></div>"
+      ],
+      "answer": 0,
+      "explanation": "A vertical mirror swaps left and right while keeping top/bottom fixed. The correct mirror image is option A.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "id": 27,
+      "question": "Which of the following is the correct <strong>mirror image</strong> of the figure shown?<br><br><div class=\"nv-cell\" style=\"margin:0 auto;width:60px\"><div class=\"nv-key\">Given</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">5</text></svg></div>",
+      "options": [
+        "<div class=\"nv-cell\"><div class=\"nv-key\">A</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">Z</text></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">B</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><g transform=\"translate(44,0) scale(-1,1)\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">5</text></g></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">C</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">J</text></svg></div>",
+        "<div class=\"nv-cell\"><div class=\"nv-key\">D</div><svg viewBox=\"0 0 44 44\" width=\"44\" height=\"44\" class=\"fig-svg\"><text x=\"22\" y=\"32\" font-size=\"26\" text-anchor=\"middle\" fill=\"var(--accent)\" font-weight=\"bold\" font-family=\"Georgia,serif\">5</text></svg></div>"
+      ],
+      "answer": 1,
+      "explanation": "A vertical mirror swaps left and right while keeping top/bottom fixed. The correct mirror image is option B.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning"
+    },
+    {
+      "question": "The mirror image of the digit <strong>7</strong> looks like:",
+      "options": [
+        "7 itself",
+        "a reversed/backward 7",
+        "the digit 1",
+        "the digit 2"
+      ],
+      "answer": 1,
+      "explanation": "7 is not vertically symmetric, so its mirror image is a backward/reversed 7.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning",
+      "id": 28
+    },
+    {
+      "question": "Which number among the following is symmetric and appears unchanged in a mirror?",
+      "options": [
+        "69",
+        "88",
+        "23",
+        "47"
+      ],
+      "answer": 1,
+      "explanation": "8 is symmetric, so 88 appears unchanged in a mirror. 6, 9, 2, 3, 4, 7 are not symmetric.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning",
+      "id": 29
+    },
+    {
+      "question": "A clock seen in a mirror shows 6:45. The real time is:",
+      "options": [
+        "5:15",
+        "5:45",
+        "6:15",
+        "5:25"
+      ],
+      "answer": 0,
+      "explanation": "Real = 11:60 - 6:45 = 5:15.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning",
+      "id": 30
+    },
+    {
+      "question": "In a vertical mirror, the letter <strong>R</strong> appears as:",
+      "options": [
+        "R unchanged",
+        "a backward (mirror-reversed) R",
+        "the letter P",
+        "the letter A"
+      ],
+      "answer": 1,
+      "explanation": "R is not vertically symmetric, so its mirror image is a backward/reversed R.",
+      "source": "R.S. Aggarwal, Non-Verbal Reasoning",
+      "id": 31
+    }
+  ]
+}
